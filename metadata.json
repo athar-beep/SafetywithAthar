@@ -1,0 +1,6 @@
+{
+  "name": "SafetyWithAthar — AtharWorld",
+  "description": "Cold Email Infrastructure Setup (SPF, DKIM, DMARC) & Remote HSE Documentation by Muhammad Athar — featuring the AtharWorld glossy black glassmorphism welcome experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

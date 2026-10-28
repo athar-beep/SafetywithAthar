@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://athar-beep.github.io/safetywithathar/sitemap.xml

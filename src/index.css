@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-obsidian: #08090B;
+    --bg-graphite: #111418;
+    --text-silver: #E7E9ED;
+    --text-body: #B8BEC7;
+    --text-muted: #7D8592;
+    --accent-blue: #38BDF8;
+    --accent-orange: #F97316;
+  }
+
+  html,
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #08090B;
+    color: #E7E9ED;
+    scroll-behavior: smooth;
+    overflow-x: clip;
+    max-width: 100vw;
+  }
+
+  h1, .font-editorial {
+    font-family: 'Sora', 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-syne-accent {
+    font-family: 'Syne', 'Sora', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h2, h3, h4, .font-display {
+    font-family: 'Sora', 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Art-Directed Editorial Headline Treatments */
+.text-silver-metallic {
+  background: linear-gradient(
+    180deg,
+    #FFFFFF 0%,
+    #EDEFF3 48%,
+    #B6C0CE 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-inbox-blue {
+  background: linear-gradient(
+    135deg,
+    #E0F2FE 0%,
+    #7DD3FC 35%,
+    #38BDF8 75%,
+    #0284C7 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-worksite-orange {
+  background: linear-gradient(
+    135deg,
+    #FFEDD5 0%,
+    #FDBA74 35%,
+    #F97316 75%,
+    #EA580C 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle architectural grid background for hero depth */
+.hero-architectural-surface {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 85% 75% at 50% 35%, black 25%, transparent 90%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 35%, black 25%, transparent 90%);
+}
+
+/* Glossy black glassmorphism surfaces — only transform and opacity are animated */
+.glass-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(24, 28, 36, 0.74) 0%,
+    rgba(13, 16, 22, 0.86) 55%,
+    rgba(9, 11, 15, 0.94) 100%
+  );
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  box-shadow:
+    0 20px 50px -15px rgba(0, 0, 0, 0.88),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.16),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.04);
+}
+
+.glass-panel-elevated {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 35, 45, 0.78) 0%,
+    rgba(14, 17, 23, 0.90) 52%,
+    rgba(8, 10, 14, 0.96) 100%
+  );
+  backdrop-filter: blur(24px) saturate(150%);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 28px 70px -12px rgba(0, 0, 0, 0.94),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.24),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+.glass-pill-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    rgba(255, 255, 255, 0.05) 52%,
+    rgba(12, 15, 20, 0.65) 100%
+  );
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow:
+    0 10px 28px -6px rgba(0, 0, 0, 0.78),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.28),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.06);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), opacity 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-pill-btn:hover:not(:disabled) {
+  transform: translateY(-1.5px);
+}
+
+.glass-pill-btn:active:not(:disabled) {
+  transform: translateY(0.5px) scale(0.99);
+}
+
+/* Specular reflection sheen using transform/opacity only */
+@keyframes ambientPulse {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.72;
+    transform: scale(1.04) translate3d(0, -6px, 0);
+  }
+}
+
+@keyframes welcomeTimerBar {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.animate-ambient-gloss {
+  animation: ambientPulse 7s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.animate-welcome-progress {
+  transform-origin: left center;
+  animation: welcomeTimerBar 2.5s linear forwards;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .glass-panel,
+  .glass-panel-elevated {
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-ambient-gloss,
+  .animate-welcome-progress {
+    animation: none !important;
+  }
+
+  .glass-pill-btn:hover:not(:disabled),
+  .glass-pill-btn:active:not(:disabled) {
+    transform: none !important;
+  }
+}

@@ -219,8 +219,12 @@ export function SampleGallerySection({
       error: null,
     });
 
-    // GitHub Pages edition: the demo PDF is a static file bundled with the site.
-    const staticUrl = `${import.meta.env.BASE_URL}samples/${encodeURIComponent(sample.id)}.pdf`;
+    // GitHub Pages edition: the demo PDF is a static file bundled with the
+    // site. Its path comes from the sample's storage_path (valid for both the
+    // bundled catalogue and database rows); the id-based name is a fallback.
+    const staticUrl = sample.storage_path
+      ? `${import.meta.env.BASE_URL}${sample.storage_path}`
+      : `${import.meta.env.BASE_URL}samples/${encodeURIComponent(sample.id)}.pdf`;
     setSignedUrlState({
       loading: false,
       url: staticUrl,

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import type { PackageTierId, ServiceId } from './config/servicesConfig';
 import {
   shouldShowWelcome,
@@ -20,7 +20,11 @@ import { AdminModal } from './components/AdminModal';
 import { SiteFooter } from './components/SiteFooter';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { portfolioSamples } from './data/samples';
-import { getSampleDocumentPages } from './utils/sampleDocuments';
+import {
+  getSampleDocumentPages,
+  type PortfolioSampleRecord,
+} from './utils/sampleDocuments';
+import { restSelect, supabaseConfigured } from './lib/supabase';
 
 export default function App() {
   const [welcomeOpen, setWelcomeOpen] = useState<boolean>(() => {
@@ -31,16 +35,62 @@ export default function App() {
     });
   });
 
-  // GitHub Pages edition: samples are bundled statically (same published set
-  // the Express /api/samples endpoint returned, with document pages resolved).
-  const [samples] = useState<PortfolioSample[]>(() =>
-    portfolioSamples
+  // Samples come from Supabase (portfolio_samples, published rows are public
+  // via RLS) so the owner admin can manage the catalogue without a redeploy.
+  // The bundled static set is the offline fallback and also supplies the rich
+  // document_pages for the original samples (merged by slug).
+  const bundledSamples = useCallback((): PortfolioSample[] => {
+    return portfolioSamples
       .filter((s) => s.is_published && s.permission_confirmed)
       .sort((a, b) => a.sort_order - b.sort_order)
-      .map((s) => ({ ...s, document_pages: getSampleDocumentPages(s) }))
+      .map((s) => ({ ...s, document_pages: getSampleDocumentPages(s) }));
+  }, []);
+
+  const [samples, setSamples] = useState<PortfolioSample[]>(() =>
+    bundledSamples()
   );
-  const samplesLoading = false;
-  const samplesError: string | null = null;
+  const [samplesLoading, setSamplesLoading] = useState<boolean>(false);
+  const [samplesError, setSamplesError] = useState<string | null>(null);
+
+  const fetchSamples = useCallback(async () => {
+    if (!supabaseConfigured) {
+      setSamples(bundledSamples());
+      return;
+    }
+    setSamplesLoading(true);
+    try {
+      const rows = await restSelect<PortfolioSampleRecord>(
+        'portfolio_samples',
+        'select=*&is_published=eq.true&permission_confirmed=eq.true&order=sort_order.asc,created_at.asc'
+      );
+      if (!Array.isArray(rows) || rows.length === 0) {
+        setSamples(bundledSamples());
+        setSamplesError(null);
+        return;
+      }
+      const pagesBySlug = new Map(
+        portfolioSamples.map((s) => [s.slug, s.document_pages])
+      );
+      setSamples(
+        rows.map((row) => ({
+          ...row,
+          file_type: row.file_type ?? 'PDF',
+          document_pages:
+            row.document_pages ?? pagesBySlug.get(row.slug) ?? undefined,
+        }))
+      );
+      setSamplesError(null);
+    } catch {
+      // Keep whatever is already shown (bundled set on first load).
+      setSamplesError(null);
+    } finally {
+      setSamplesLoading(false);
+    }
+  }, [bundledSamples]);
+
+  useEffect(() => {
+    void fetchSamples();
+  }, [fetchSamples]);
   const [adminOpen, setAdminOpen] = useState<boolean>(() => {
     if (typeof window === 'undefined') return false;
     return (
@@ -52,8 +102,7 @@ export default function App() {
   const [inquiryService, setInquiryService] = useState<ServiceId>('cold_email');
   const [inquiryPackage, setInquiryPackage] = useState<PackageTierId>('basic');
 
-  // Static edition: no API to refresh from; kept as a no-op for prop compatibility.
-  const fetchSamples = () => {};
+  // (fetchSamples is defined with the samples state above.)
 
   const handleDismissWelcome = () => {
     if (typeof window !== 'undefined') {

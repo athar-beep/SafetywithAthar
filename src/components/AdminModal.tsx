@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   X,
   Lock,
@@ -11,6 +11,16 @@ import {
   ShieldAlert,
 } from 'lucide-react';
 import { validateSampleInput } from '../utils/validation';
+import {
+  loadSession,
+  restDelete,
+  restInsert,
+  restSelect,
+  restUpdate,
+  saveSession,
+  signInWithPassword,
+} from '../lib/supabase';
+import type { PortfolioSampleRecord } from '../utils/sampleDocuments';
 import type { PortfolioSample } from './SampleGallerySection';
 import { GlassPanel } from './ui/GlassPanel';
 import { PillGlassButton } from './ui/PillGlassButton';
@@ -41,7 +51,12 @@ export function AdminModal({
   samples,
   onSamplesUpdated,
 }: AdminModalProps) {
-  const [adminToken, setAdminToken] = useState<string | null>(null);
+  const [adminToken, setAdminToken] = useState<string | null>(
+    () => loadSession()?.access_token ?? null
+  );
+  const [adminSamples, setAdminSamples] = useState<PortfolioSample[] | null>(
+    null
+  );
   const [emailInput, setEmailInput] = useState('muhammadatharhse@gmail.com');
   const [passphraseInput, setPassphraseInput] = useState('');
   const [authError, setAuthError] = useState<string | null>(null);
@@ -66,7 +81,18 @@ export function AdminModal({
 
   const [inquiries, setInquiries] = useState<InquiryRecord[]>([]);
 
+  // Restore a still-valid stored session when the panel opens.
+  useEffect(() => {
+    if (isOpen && adminToken) {
+      void loadAdminInquiries(adminToken);
+      void loadAdminSamples(adminToken);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen]);
+
   if (!isOpen) return null;
+
+  const displaySamples = adminSamples ?? samples;
 
   const handleFileToDataUrl = (
     file: File | undefined,
@@ -87,35 +113,65 @@ export function AdminModal({
     e.preventDefault();
     setAuthError(null);
     try {
-      const response = await fetch('/api/admin/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: emailInput.trim(),
-          passphrase: passphraseInput,
-        }),
-      });
-      const data = await response.json();
-      if (!response.ok || !data.token) {
-        setAuthError(data.error || 'Invalid owner credentials.');
-        return;
-      }
-      setAdminToken(data.token);
-      loadAdminInquiries(data.token);
+      const session = await signInWithPassword(
+        emailInput.trim(),
+        passphraseInput
+      );
+      setAdminToken(session.access_token);
+      void loadAdminInquiries(session.access_token);
+      void loadAdminSamples(session.access_token);
+    } catch (err) {
+      setAuthError(
+        err instanceof Error ? err.message : 'Invalid owner credentials.'
+      );
+    }
+  };
+
+  const handleSignOut = () => {
+    saveSession(null);
+    setAdminToken(null);
+    setAdminSamples(null);
+    setInquiries([]);
+  };
+
+  const loadAdminSamples = async (token: string) => {
+    try {
+      const rows = await restSelect<PortfolioSampleRecord>(
+        'portfolio_samples',
+        'select=*&order=sort_order.asc,created_at.asc',
+        token
+      );
+      setAdminSamples(rows as PortfolioSample[]);
     } catch {
-      setAuthError('Could not connect to admin authentication endpoint.');
+      // Keep showing the public list if the admin list cannot load.
     }
   };
 
   const loadAdminInquiries = async (token: string) => {
     try {
-      const res = await fetch('/api/admin/inquiries', {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      if (res.ok) {
-        const data = await res.json();
-        setInquiries(data.inquiries ?? []);
-      }
+      const rows = await restSelect<Record<string, unknown>>(
+        'inquiries',
+        'select=*&order=created_at.desc',
+        token
+      );
+      setInquiries(
+        rows.map((r) => ({
+          id: String(r.id),
+          created_at: String(r.created_at),
+          name: String(r.name),
+          email: String(r.email),
+          service: r.service as InquiryRecord['service'],
+          packageTier: String(r.package),
+          message: String(r.message),
+          pageSource: String(r.page_source ?? ''),
+          notification_status:
+            r.notification_status === 'sent'
+              ? 'sent'
+              : 'failed_or_unconfigured',
+          notification_error_code:
+            (r.notification_error_code as string | null) ?? null,
+        }))
+      );
     } catch {
       // Ignore error
     }
@@ -143,45 +199,39 @@ export function AdminModal({
       return;
     }
 
-    try {
-      const response = await fetch('/api/samples', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${adminToken}`,
-        },
-        body: JSON.stringify({
-          title,
-          slug: validation.slug,
-          category,
-          sample_type: sampleType,
-          summary,
-          description: description || summary,
-          tags: tagsText
-            .split(',')
-            .map((t) => t.trim())
-            .filter(Boolean),
-          page_count: Number(pageCount) || undefined,
-          thumbnail_data_url: thumbnailDataUrl,
-          pdf_data_url: pdfDataUrl,
-          source_label:
-            category === 'hse_docs'
-              ? 'Public-source demo sample'
-              : 'Sanitized technical sample',
-          revision_label: 'Rev. 0 • For review only',
-          is_published: isPublished,
-          permission_confirmed: permissionConfirmed,
-        }),
+    if (!adminToken) {
+      setFormFeedback({
+        type: 'error',
+        text: 'Please sign in again — the admin session has expired.',
       });
+      return;
+    }
 
-      const data = await response.json();
-      if (!response.ok) {
-        setFormFeedback({
-          type: 'error',
-          text: data.error || 'Failed to save sample.',
-        });
-        return;
-      }
+    try {
+      // Supabase edition: catalogue rows live in portfolio_samples. File
+      // uploads are not stored here (demo PDFs are bundled with the site);
+      // a created sample renders with an auto-generated preview page.
+      await restInsert('portfolio_samples', {
+        title,
+        slug: validation.slug,
+        category,
+        sample_type: sampleType,
+        summary,
+        description: description || summary,
+        tags: tagsText
+          .split(',')
+          .map((t) => t.trim())
+          .filter(Boolean),
+        page_count: Number(pageCount) || null,
+        source_label:
+          category === 'hse_docs'
+            ? 'Public-source demo sample'
+            : 'Sanitized technical sample',
+        revision_label: 'Rev. 0 • For review only',
+        is_published: isPublished,
+        permission_confirmed: permissionConfirmed,
+        sort_order: 100,
+      }, adminToken);
 
       setTitle('');
       setSummary('');
@@ -194,11 +244,13 @@ export function AdminModal({
         text: 'Sample created and synced with the live public gallery.',
       });
       onSamplesUpdated();
+      void loadAdminSamples(adminToken);
       setActiveTab('samples');
-    } catch {
+    } catch (err) {
       setFormFeedback({
         type: 'error',
-        text: 'Network error while saving sample.',
+        text:
+          err instanceof Error ? err.message : 'Failed to save sample.',
       });
     }
   };
@@ -206,18 +258,14 @@ export function AdminModal({
   const handleTogglePublish = async (sample: PortfolioSample) => {
     if (!adminToken) return;
     try {
-      await fetch(`/api/samples/${encodeURIComponent(sample.id)}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${adminToken}`,
-        },
-        body: JSON.stringify({
-          is_published: !sample.is_published,
-          permission_confirmed: true,
-        }),
-      });
+      await restUpdate(
+        'portfolio_samples',
+        sample.id,
+        { is_published: !sample.is_published, permission_confirmed: true },
+        adminToken
+      );
       onSamplesUpdated();
+      void loadAdminSamples(adminToken);
     } catch {
       // Ignore
     }
@@ -226,13 +274,9 @@ export function AdminModal({
   const handleDeleteSample = async (sampleId: string) => {
     if (!adminToken) return;
     try {
-      await fetch(`/api/samples/${encodeURIComponent(sampleId)}`, {
-        method: 'DELETE',
-        headers: {
-          Authorization: `Bearer ${adminToken}`,
-        },
-      });
+      await restDelete('portfolio_samples', sampleId, adminToken);
       onSamplesUpdated();
+      void loadAdminSamples(adminToken);
     } catch {
       // Ignore
     }
@@ -300,14 +344,15 @@ export function AdminModal({
                 htmlFor="admin-passphrase-input"
                 className="block text-xs font-semibold text-[#E7E9ED]"
               >
-                Admin Passphrase (leave blank or enter configured passphrase in local preview)
+                Admin Password
               </label>
               <input
                 id="admin-passphrase-input"
                 type="password"
+                required
                 value={passphraseInput}
                 onChange={(e) => setPassphraseInput(e.target.value)}
-                placeholder="Enter owner passphrase (optional in preview)"
+                placeholder="Enter owner password"
                 className="mt-1.5 w-full min-h-[44px] rounded-xl border border-white/15 bg-[#08090B] px-4 py-2 text-sm text-[#E7E9ED]"
               />
             </div>
@@ -339,7 +384,7 @@ export function AdminModal({
                   size="sm"
                   onClick={() => setActiveTab('samples')}
                 >
-                  Samples ({samples.length})
+                  Samples ({displaySamples.length})
                 </PillGlassButton>
                 <PillGlassButton
                   variant={activeTab === 'create' ? 'primary' : 'subtle'}
@@ -365,8 +410,15 @@ export function AdminModal({
                 </PillGlassButton>
               </div>
 
-              <span className="text-xs text-[#7D8592]">
-                Signed in as {emailInput}
+              <span className="flex items-center gap-3 text-xs text-[#7D8592]">
+                <span>Signed in as {emailInput}</span>
+                <PillGlassButton
+                  variant="subtle"
+                  size="sm"
+                  onClick={handleSignOut}
+                >
+                  Sign Out
+                </PillGlassButton>
               </span>
             </div>
 
@@ -395,7 +447,7 @@ export function AdminModal({
                   Publish, unpublish, or remove samples below. Changes appear immediately in the public gallery without editing code.
                 </p>
 
-                {samples.map((sample) => (
+                {displaySamples.map((sample) => (
                   <div
                     key={sample.id}
                     className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-white/10 bg-[#08090B]/70 p-4"

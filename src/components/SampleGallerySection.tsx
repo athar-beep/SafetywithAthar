@@ -245,8 +245,8 @@ export function SampleGallerySection({
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             indexLabel="02. Live Document & Configuration Gallery"
-            title="Inspect Real First-Page Previews Immediately"
-            subtitle="Every published Risk Assessment, JSA/JHA, Method Statement, and SPF/DKIM/DMARC configuration sheet is visible directly below. Click any document card to open the full multi-page reader or download the PDF."
+            title="Real Sample PDFs — The Actual Documents"
+            subtitle="Every box below shows page 1 of the actual sample PDF — the same Jafurah Risk Assessment shared on LinkedIn, the other HSE demo samples, and the cold email samples. Click any box to read the full PDF."
           />
 
           {/* Interactive Filter Controls + Admin Manager Trigger */}
@@ -564,81 +564,17 @@ export function SampleGallerySection({
                 {selectedSample.description}
               </p>
 
-              {/* Render All Scrollable Document Sheets */}
-              {getSampleDocumentPages(selectedSample).map((page) => {
-                const isHse = selectedSample.category === 'hse_docs';
-                return (
-                  <div
-                    key={`${selectedSample.id}-page-${page.pageNumber}`}
-                    className="rounded-2xl border border-white/14 bg-[#0B0E14] p-4 sm:p-6 shadow-inner"
-                  >
-                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 pb-3">
-                      <div>
-                        <span
-                          className={`font-mono-tabular text-xs font-semibold ${
-                            isHse ? 'text-[#F97316]' : 'text-[#38BDF8]'
-                          }`}
-                        >
-                          {page.docCode} · {page.revLabel}
-                        </span>
-                        <h4 className="mt-0.5 font-display text-sm sm:text-base font-bold text-[#E7E9ED]">
-                          {page.sectionTitle}
-                        </h4>
-                      </div>
-                      <span className="font-mono-tabular text-xs text-[#7D8592]">
-                        Page {page.pageNumber}
-                      </span>
-                    </div>
-
-                    <p className="mt-3 font-mono-tabular text-xs text-[#B8BEC7]">
-                      {page.summaryNote}
-                    </p>
-
-                    {/* Responsive Document Table */}
-                    <div className="mt-4 overflow-x-auto rounded-xl border border-white/10 bg-[#07090D]">
-                      <table className="w-full min-w-[540px] text-left text-xs">
-                        <thead>
-                          <tr className="border-b border-white/10 bg-white/[0.04] font-mono-tabular text-[11px] text-[#E7E9ED]">
-                            <th className="px-3.5 py-2.5 font-semibold">{page.headers[0]}</th>
-                            <th className="px-3.5 py-2.5 font-semibold">{page.headers[1]}</th>
-                            <th className="px-3.5 py-2.5 font-semibold">{page.headers[2]}</th>
-                            <th className="px-3.5 py-2.5 font-semibold">{page.headers[3]}</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-white/[0.06] text-[#B8BEC7]">
-                          {page.rows.map((row, rIdx) => (
-                            <tr key={`${page.docCode}-row-${rIdx}`}>
-                              <td className="px-3.5 py-2.5 font-medium text-[#E7E9ED]">
-                                {row.col1}
-                              </td>
-                              <td className="px-3.5 py-2.5 font-mono-tabular text-xs">
-                                {row.col2}
-                              </td>
-                              <td className="px-3.5 py-2.5 font-mono-tabular text-xs">
-                                {row.col3}
-                              </td>
-                              <td className="px-3.5 py-2.5">
-                                <span className="text-[#E7E9ED]">{row.col4}</span>
-                                {row.badge && (
-                                  <span
-                                    className={`ml-2 font-mono-tabular text-[11px] font-semibold ${
-                                      isHse ? 'text-[#FDBA74]' : 'text-[#7DD3FC]'
-                                    }`}
-                                  >
-                                    · {row.badge}
-                                  </span>
-                                )}
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-
-                    <p className="mt-3 text-[11px] text-[#7D8592]">{page.footerNote}</p>
-                  </div>
-                );
-              })}
+              {/* Real PDF — embedded directly so visitors read the actual sample document */}
+              {signedUrlState.url ? (
+                <iframe
+                  src={signedUrlState.url}
+                  title={`Full PDF of ${selectedSample.title}`}
+                  data-testid="modal-pdf-embed"
+                  className="h-[62vh] w-full rounded-xl border border-white/14 bg-white"
+                />
+              ) : (
+                <p className="text-sm text-[#B8BEC7]">Loading the sample PDF…</p>
+              )}
 
               {/* Signed Storage Status Bar */}
               <div className="rounded-xl border border-white/10 bg-[#0D1015] p-3.5 flex flex-wrap items-center justify-between gap-2 text-xs text-[#B8BEC7]">
@@ -646,9 +582,9 @@ export function SampleGallerySection({
                   <Lock className="h-3.5 w-3.5 text-[#38BDF8]" aria-hidden="true" />
                   <span>
                     {signedUrlState.loading
-                      ? 'Generating signed document token…'
+                      ? 'Loading the sample PDF…'
                       : signedUrlState.note ||
-                        'Signed document preview active.'}
+                        'Sample PDF preview active.'}
                   </span>
                 </span>
                 {signedUrlState.expiresAt && (

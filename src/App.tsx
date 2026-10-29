@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import type { PackageTierId, ServiceId } from './config/servicesConfig';
 import {
   shouldShowWelcome,
@@ -19,6 +19,8 @@ import { InquirySection } from './components/InquirySection';
 import { AdminModal } from './components/AdminModal';
 import { SiteFooter } from './components/SiteFooter';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
+import { portfolioSamples } from './data/samples';
+import { getSampleDocumentPages } from './utils/sampleDocuments';
 
 export default function App() {
   const [welcomeOpen, setWelcomeOpen] = useState<boolean>(() => {
@@ -29,9 +31,16 @@ export default function App() {
     });
   });
 
-  const [samples, setSamples] = useState<PortfolioSample[]>([]);
-  const [samplesLoading, setSamplesLoading] = useState<boolean>(true);
-  const [samplesError, setSamplesError] = useState<string | null>(null);
+  // GitHub Pages edition: samples are bundled statically (same published set
+  // the Express /api/samples endpoint returned, with document pages resolved).
+  const [samples] = useState<PortfolioSample[]>(() =>
+    portfolioSamples
+      .filter((s) => s.is_published && s.permission_confirmed)
+      .sort((a, b) => a.sort_order - b.sort_order)
+      .map((s) => ({ ...s, document_pages: getSampleDocumentPages(s) }))
+  );
+  const samplesLoading = false;
+  const samplesError: string | null = null;
   const [adminOpen, setAdminOpen] = useState<boolean>(() => {
     if (typeof window === 'undefined') return false;
     return (
@@ -43,30 +52,8 @@ export default function App() {
   const [inquiryService, setInquiryService] = useState<ServiceId>('cold_email');
   const [inquiryPackage, setInquiryPackage] = useState<PackageTierId>('basic');
 
-  const fetchSamples = useCallback(async () => {
-    setSamplesLoading(true);
-    setSamplesError(null);
-    try {
-      const response = await fetch('/api/samples');
-      if (!response.ok) {
-        throw new Error('Could not load published sample metadata.');
-      }
-      const data = await response.json();
-      setSamples(Array.isArray(data.samples) ? data.samples : []);
-    } catch (err) {
-      setSamplesError(
-        err instanceof Error
-          ? err.message
-          : 'Failed to load sample metadata. Please retry.'
-      );
-    } finally {
-      setSamplesLoading(false);
-    }
-  }, []);
-
-  useEffect(() => {
-    fetchSamples();
-  }, [fetchSamples]);
+  // Static edition: no API to refresh from; kept as a no-op for prop compatibility.
+  const fetchSamples = () => {};
 
   const handleDismissWelcome = () => {
     if (typeof window !== 'undefined') {

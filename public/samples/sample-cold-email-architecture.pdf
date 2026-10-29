@@ -3,52 +3,208 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 14 0 R >> >> /Contents 5 0 R >>
+endobj
 5 0 obj
-<< /Length 1983 >>
+<< /Length 2127 >>
 stream
-BT
-/F1 10 Tf
-1 0 0 1 42 790 Tm (SafetyWithAthar   Cold Email Infrastructure) Tj
-1 0 0 1 42 775 Tm (Document Title: Cold Email Infrastructure Setup   Secondary Domain & Warm-Up Blueprint) Tj
-1 0 0 1 42 760 Tm (Category: Cold Email Infrastructure Setup   |   Status: Sanitized technical sample \(Rev. 0   Set) Tj
-1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 730 Tm (Summary: Sanitized multi-domain sending architecture showing primary domain isolation, mailbox d) Tj
-1 0 0 1 42 715 Tm () Tj
-1 0 0 1 42 700 Tm ([Page 1] Multi-Domain Outbound Architecture & Warm-Up Schedule \(SWA-INFRA-ARC-02\)) Tj
-1 0 0 1 42 685 Tm (Infrastructure Layer  |  Configuration Standard  |  Volume / Threshold  |  Verification) Tj
-1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 655 Tm (* Primary Root Domain   Strict DMARC p=reject   Zero cold outbound traffic permitted) Tj
-1 0 0 1 42 640 Tm (  [0 cold sends / day \(Isolated\)] -> Reputation Shielded \(Protected\)) Tj
-1 0 0 1 42 625 Tm (* Secondary Sending Domains   301 HTTPS redirect to primary + full SPF, DKIM 2048-bit & DMARC) Tj
-1 0 0 1 42 610 Tm (  [2 mailboxes per domain] -> MX & Auth Verified \(Active\)) Tj
-1 0 0 1 42 595 Tm (* Days 01 14 Warm-Up Ramp   Gradual daily increment \(+2 sends/day\) with 30% conversational repli) Tj
-1 0 0 1 42 580 Tm (  [10   30 emails / day / box] -> 0% Hard Bounce Gate \(Ramping\)) Tj
-1 0 0 1 42 565 Tm (* Campaign Readiness Audit   Plain-text ratio check, RFC 8058 List-Unsubscribe header, blacklist) Tj
-1 0 0 1 42 550 Tm (  [Max 35 45 sends / day / box] -> Pre-Launch Cleared \(Ready\)) Tj
-1 0 0 1 42 535 Tm (Note: Sanitized public demonstration sample   Rev. 0   Configures technical readiness; never cla) Tj
-1 0 0 1 42 520 Tm () Tj
-1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
-ET
+BT /FB 13 Tf 40 795 Td (Cold Email Infrastructure Setup - Secondary Domain & Warm-Up Blueprint) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-INFRA-ARC-02  -  Rev. 0 - 5 Pages  -  Page 1 of 5) Tj ET
+BT /FB 11 Tf 40 756 Td (Multi-Domain Outbound Architecture & Warm-Up Schedule) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Architecture: Primary Domain Protected - 2 Secondary Sending Domains - 2 Mailboxes / Domain) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Primary Root Domain) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Configuration Standard: Strict DMARC p=reject - Zero cold outbound traffic permitted) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Volume / Threshold: 0 cold sends / day \(Isolated\)) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Reputation Shielded) Tj ET
+BT /FB 8.5 Tf 40 654 Td (Protected) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Secondary Sending Domains) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Configuration Standard: 301 HTTPS redirect to primary + full SPF, DKIM 2048-bit & DMARC) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Volume / Threshold: 2 mailboxes per domain) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: MX & Auth Verified) Tj ET
+BT /FB 8.5 Tf 40 578 Td (Active) Tj ET
+0.9 g 40 562 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 550 Td (Days 01-14 Warm-Up Ramp) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Configuration Standard: Gradual daily increment \(+2 sends/day\) with 30% conversational replies) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Volume / Threshold: 10 - 30 emails / day / box) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Verification: 0% Hard Bounce Gate) Tj ET
+BT /FB 8.5 Tf 40 502 Td (Ramping) Tj ET
+0.9 g 40 486 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 474 Td (Campaign Readiness Audit) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Configuration Standard: Plain-text ratio check, RFC 8058 List-Unsubscribe header, blacklist scan) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Volume / Threshold: Max 35-45 sends / day / box) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Verification: Pre-Launch Cleared) Tj ET
+BT /FB 8.5 Tf 40 426 Td (Ready) Tj ET
+0.9 g 40 410 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Sanitized public demonstration sample - Rev. 0 - Configures technical readiness; never claims) Tj ET
 endstream
 endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 14 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1705 >>
+stream
+BT /FB 13 Tf 40 795 Td (Cold Email Infrastructure Setup - Secondary Domain & Warm-Up Blueprint) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-INFRA-ARC-02  -  Rev. 0 - Page 2  -  Page 2 of 5) Tj ET
+BT /FB 11 Tf 40 756 Td (Domain Architecture Map) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Primary domain is never used for cold outreach. Secondary domains carry all sending risk.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Primary Root Domain) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Brand + transactional mail only) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: No cold sending, ever) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Policy) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Secondary Domains \(-3\)) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Look-alike domains registered for outreach) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: SPF/DKIM/DMARC per domain) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: DNS verified) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Mailboxes \(2-3 / domain\)) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Named sender personas) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Profile complete + signature plain-text) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Checklist) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Tracking Subdomain) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: CNAME to sending platform) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: SSL active before first send) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: HTTPS check) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 14 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1639 >>
+stream
+BT /FB 13 Tf 40 795 Td (Cold Email Infrastructure Setup - Secondary Domain & Warm-Up Blueprint) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-INFRA-ARC-02  -  Rev. 0 - Page 3  -  Page 3 of 5) Tj ET
+BT /FB 11 Tf 40 756 Td (Mailbox Distribution Matrix) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Volume is spread so no single mailbox or domain carries campaign risk.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Per Mailbox) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Max 30-50 sends/day at full ramp) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Warm-up tool pacing enabled) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Platform log) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Per Domain) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Max 3 mailboxes) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Domain-level caps respected) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Platform log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Rotation) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Even rotation across mailboxes) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: No mailbox exceeds daily cap) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Weekly review) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Bounce Guard) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Campaign pauses above 2% bounce) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: List cleaning before relaunch) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Hard rule) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 14 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1630 >>
+stream
+BT /FB 13 Tf 40 795 Td (Cold Email Infrastructure Setup - Secondary Domain & Warm-Up Blueprint) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-INFRA-ARC-02  -  Rev. 0 - Page 4  -  Page 4 of 5) Tj ET
+BT /FB 11 Tf 40 756 Td (21-Day Warm-Up Schedule) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Warm-up runs on peer-network engagement before any live campaign volume.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Days 1-7) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: 10-20 / day per mailbox) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Replies + rescue-from-spam actions) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Week 1 gate) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Days 8-14) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: 20-35 / day per mailbox) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Engagement rate > 25% maintained) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Week 2 gate) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Days 15-21) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: 35-45 / day per mailbox) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Postmaster signals reviewed) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Week 3 gate) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Day 22+) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Controlled campaign start) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Small segment first, monitor hourly) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Go / no-go) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 14 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1626 >>
+stream
+BT /FB 13 Tf 40 795 Td (Cold Email Infrastructure Setup - Secondary Domain & Warm-Up Blueprint) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-INFRA-ARC-02  -  Rev. 0 - Page 5  -  Page 5 of 5) Tj ET
+BT /FB 11 Tf 40 756 Td (Readiness Audit & Handover) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Sending starts only after every readiness gate passes. Authentication improves deliverability) Tj ET
+BT /FR 8.5 Tf 40 724 Td (readiness; it never guarantees inbox placement.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Authentication) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Evidence: SPF/DKIM/DMARC all PASS) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Owner: SafetyWithAthar) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Status: Required) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Blacklist Baseline) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Evidence: Domain + IP checked against major lists) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Owner: SafetyWithAthar) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Status: Required) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Warm-Up Plan) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Evidence: 21-day ramp schedule issued) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Owner: Client sender) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Status: Required) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Handover) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Evidence: Configuration sheet + checklist delivered) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Owner: SafetyWithAthar) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Status: Rev. 0) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Sanitized public demonstration - Rev. 0 - No client domains, credentials, or private IPs exposed.) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 xref
-0 6
+0 15
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000348 00000 n 
+0000002527 00000 n 
+0000002664 00000 n 
+0000004421 00000 n 
+0000004558 00000 n 
+0000006249 00000 n 
+0000006388 00000 n 
+0000008071 00000 n 
+0000008210 00000 n 
+0000009889 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 15 /Root 1 0 R >>
 startxref
-2346
+9965
 %%EOF

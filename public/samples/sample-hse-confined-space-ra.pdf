@@ -3,52 +3,924 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R] /Count 22 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 5 0 R >>
+endobj
 5 0 obj
-<< /Length 2068 >>
+<< /Length 2291 >>
 stream
-BT
-/F1 10 Tf
-1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
-1 0 0 1 42 775 Tm (Document Title: Confined Space Entry & Gas Testing Risk Assessment) Tj
-1 0 0 1 42 760 Tm (Category: Risk Assessment   |   Status: Public-source demo sample \(Rev. 0   For review only\)) Tj
-1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 730 Tm (Summary: Activity-based 5 5 Risk Assessment for vessel/manhole entry, LOTO isolation, continuous) Tj
-1 0 0 1 42 715 Tm () Tj
-1 0 0 1 42 700 Tm ([Page 1] Confined Space Entry Risk Assessment & Atmospheric Hold Points \(SWA-HSE-CSE-022\)) Tj
-1 0 0 1 42 685 Tm (Entry Activity  |  Atmospheric / Physical Hazard  |  Init Risk  |  Controls & Hold Point) Tj
-1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 655 Tm (* 01. Mechanical & Process Isolation   Inadvertent inflow of toxic gas, steam, or liquid) Tj
-1 0 0 1 42 640 Tm (  [25 \(Crit\)] -> Positive spade/blinding + LOTO padlock register [HOLD POINT] \(Res: 4 \(Low\)\)) Tj
-1 0 0 1 42 625 Tm (* 02. Pre-Entry 4-Gas Testing   Oxygen depletion / flammable vapor pocket) Tj
-1 0 0 1 42 610 Tm (  [20 \(High\)] -> Stratified top/mid/bottom probe test by Authorized Gas Tester \(Res: 4 \(Low\)\)) Tj
-1 0 0 1 42 595 Tm (* 03. Forced Air Ventilation & Entry   Heat stress / toxic fume accumulation during work) Tj
-1 0 0 1 42 580 Tm (  [15 \(High\)] -> Continuous blower air changes + personal 4-gas monitor on entrant \(Res: 3 \(Low\)) Tj
-1 0 0 1 42 565 Tm (* 04. Standby Attendant & Rescue   Unassisted entrant incapacitation inside chamber) Tj
-1 0 0 1 42 550 Tm (  [16 \(High\)] -> Dedicated hole-watch log + certified tripod winch & SCBA on standby \(Res: 3 \(Lo) Tj
-1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Missing site values flagged [HOLD PO) Tj
-1 0 0 1 42 520 Tm () Tj
-1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
-ET
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - 22 Pages  -  Page 1 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Confined Space Entry Risk Assessment & Atmospheric Hold Points) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Scope: Utility Chamber & Vessel Inspection - Atmospheric Limits: O2 19.5%-23.5%, LEL < 10%, H2S = 0) Tj ET
+BT /FR 8.5 Tf 40 724 Td (ppm) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (01. Mechanical & Process Isolation) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Atmospheric / Physical Hazard: Inadvertent inflow of toxic gas, steam, or liquid) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 25 \(Crit\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Point: Positive spade/blinding + LOTO padlock register [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (02. Pre-Entry 4-Gas Testing) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Atmospheric / Physical Hazard: Oxygen depletion / flammable vapor pocket) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Point: Stratified top/mid/bottom probe test by Authorized Gas Tester) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (03. Forced Air Ventilation & Entry) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Atmospheric / Physical Hazard: Heat stress / toxic fume accumulation during work) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Point: Continuous blower air changes + personal 4-gas monitor on entrant) Tj ET
+BT /FB 8.5 Tf 40 490 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 474 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 462 Td (04. Standby Attendant & Rescue) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Atmospheric / Physical Hazard: Unassisted entrant incapacitation inside chamber) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Controls & Hold Point: Dedicated hole-watch log + certified tripod winch & SCBA on standby) Tj ET
+BT /FB 8.5 Tf 40 414 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 398 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only. Missing site values flagged [HOLD POINT].) Tj ET
 endstream
 endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2323 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 2  -  Page 2 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Entry & Atmosphere) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Site Access & Security) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Unauthorised entry / public interface) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Turnstile or gate log, visitor induction, hoarding integrity checks) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Temporary Electrics - Distribution) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Damaged leads / RCD failure) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: 110V or RCD-protected supplies, weekly PAT/inspection register, cable ramps) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (Hot Works - Welding & Cutting) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Fire / sparks to combustibles) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Hot work permit, fire watch during + 60 min after, extinguishers at point of) Tj ET
+BT /FR 8.5 Tf 40 490 Td (work [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Work at Height - Scaffold Use) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Fall of person / incomplete scaffold) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 25 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: Scafftag system, weekly + after-alteration inspections, no unauthorised) Tj ET
+BT /FR 8.5 Tf 40 402 Td (alterations [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 390 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 374 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2234 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 3  -  Page 3 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Work Inside the Space) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Lifting - Mobile Crane General) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Overload / load swing) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Lift plan per lift category, certified gear register, anemometer monitoring) Tj ET
+BT /FR 8.5 Tf 40 642 Td ([HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Plant Refuelling) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Fuel spill / fire) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Bunded bowser, drip trays, spill kit at point of use, no smoking zone) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Night Works) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Poor visibility / fatigue) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: Lighting survey \(min lux at task\), fatigue roster limits, hi-vis Class 3) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Heat Stress Management) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Heat exhaustion / heat stroke) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: WBGT monitoring, shaded rest + cool water, acclimatisation schedule, buddy) Tj ET
+BT /FR 8.5 Tf 40 402 Td (checks) Tj ET
+BT /FB 8.5 Tf 40 390 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 374 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1568 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 4  -  Page 4 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Atmospheric Testing Log \(Template\)) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Continuous 4-gas monitoring with logged readings at defined intervals. Alarm = evacuate immediately.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Oxygen \(O-\)) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Safe Range: 19.5% - 23.5%) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Alarm Action: Evacuate + ventilate) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Frequency: Continuous) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (LEL \(Flammables\)) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Safe Range: < 10% LEL) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Alarm Action: Evacuate, no re-entry until cleared) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Frequency: Continuous) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (H-S) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Safe Range: < 10 ppm TWA) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Alarm Action: Evacuate + respiratory protection review) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Frequency: Continuous) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (CO) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Safe Range: < 25 ppm TWA) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Alarm Action: Evacuate + source investigation) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Frequency: Continuous) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1718 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 5  -  Page 5 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Entry Control & Attendant Duties) Tj ET
+BT /FR 8.5 Tf 40 736 Td (The attendant never enters the space and never leaves the entry point while entrants are inside.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Entry Permit) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Issued per entry, per shift) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Permit displayed at entry point [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Permit board) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Attendant Log) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Entrant names, in/out times, comms checks) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Log updated in real time) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Entry log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Retrieval System) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Tripod + winch rigged before entry) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Non-entry rescue is the default method) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Pre-entry check) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Ventilation) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Forced air, intake from clean zone) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Minimum air changes per assessment) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Flow check) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1692 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 6  -  Page 6 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Rescue Plan Summary) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Rescue arrangements are in place and briefed BEFORE entry - improvisation is not a rescue plan.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Primary Method) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Non-entry retrieval \(winch/harness\)) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Tested at shift start) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Drill record) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Entry Rescue \(Last Resort\)) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Trained team with breathing apparatus only) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: BA sets at entry point) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Competency certs) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Communications) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Radio check entrant - attendant - supervisor) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Backup signal agreed \(line tugs\)) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Comms log) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Drills) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Simulated rescue per project phase) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Timed + debriefed) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Drill report) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 2460 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 7  -  Page 7 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Isolation & LOTO) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Earthworks - Bulk Excavation) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Plant-pedestrian interface / reversing plant strike) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Trained banksman, segregated walkways, reversing cameras [HOLD POINT: daily) Tj ET
+BT /FR 8.5 Tf 40 642 Td (plant check]) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Earthworks - Trench Support) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Trench wall collapse / engulfment) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 25 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Batterered or shored sides per soil class, ladder access every 15 m, daily) Tj ET
+BT /FR 8.5 Tf 40 554 Td (competent-person inspection [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 542 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 526 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 514 Td (Formwork & Falsework Erection) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Hazard & Consequence: Falsework overload / premature striking) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 478 Td (Controls & Hold Points: Designed falsework with tag system, striking only on engineer permit-to-strike) Tj ET
+BT /FR 8.5 Tf 40 466 Td ([HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 454 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 438 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 426 Td (Reinforcement Fixing) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Hazard & Consequence: Manual handling strain / protruding bar impalement) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 390 Td (Controls & Hold Points: Mechanical lifting for bundles, mushroom caps on starter bars, team-lift) Tj ET
+BT /FR 8.5 Tf 40 378 Td (limits) Tj ET
+BT /FB 8.5 Tf 40 366 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 350 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 2332 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 8  -  Page 8 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Ventilation & Access) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Concreting - Pump & Skip) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Hose whip / concrete splash to eyes) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Secured hose couplings with whip checks, sealed goggles, exclusion under skip) Tj ET
+BT /FR 8.5 Tf 40 642 Td (path) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Blockwork & Plastering) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Falling blocks / silica dust inhalation) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Toe boards on scaffolds, wet cutting + FFP3 respirators, dust extraction) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Structural Steel - Bolt-up) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Dropped tools / falling objects) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: Tool lanyards, bolt bags, hard-barricaded drop zone below [HOLD POINT: wind) Tj ET
+BT /FR 8.5 Tf 40 478 Td (limit 20 kt]) Tj ET
+BT /FB 8.5 Tf 40 466 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 450 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 438 Td (Roofing Works) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Hazard & Consequence: Fall through fragile surface) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Init Risk: 25 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Controls & Hold Points: Crawling boards, edge protection, harness anchor plan [HOLD POINT: fragile) Tj ET
+BT /FR 8.5 Tf 40 390 Td (surface permit]) Tj ET
+BT /FB 8.5 Tf 40 378 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 362 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 2334 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 9  -  Page 9 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Monitoring & Housekeeping) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Dust-Generating Works) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Respirable crystalline silica) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Water suppression, on-tool extraction, FFP3 face-fit tested, health) Tj ET
+BT /FR 8.5 Tf 40 642 Td (surveillance) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Noise-Intensive Works) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Noise-induced hearing loss) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Noise zones signed, hearing protection mandatory >85 dB\(A\), plant selection) Tj ET
+BT /FR 8.5 Tf 40 554 Td (low-noise first) Tj ET
+BT /FB 8.5 Tf 40 542 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 526 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 514 Td (Traffic Management - Internal Roads) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Hazard & Consequence: Vehicle collision at pinch points) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 478 Td (Controls & Hold Points: One-way system, 10 km/h limit, passing bays, trained traffic marshals) Tj ET
+BT /FB 8.5 Tf 40 466 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 450 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 438 Td (Welfare - Water, Rest, Sanitation) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Hazard & Consequence: Dehydration / hygiene illness) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Controls & Hold Points: Potable water points, shaded rest areas, serviced sanitation per headcount) Tj ET
+BT /FR 8.5 Tf 40 390 Td (ratio) Tj ET
+BT /FB 8.5 Tf 40 378 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 362 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 2240 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 10  -  Page 10 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Matrix - Monitoring & Housekeeping) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Adverse Weather - Lightning & Storm) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Lightning strike / crane instability) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: 30-30 lightning rule, crane stand-down limits, secure loose materials) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Housekeeping - Access Routes) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Slips, trips and falls \(same level\)) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: Designated walkways kept clear, cable covers, daily supervisor walk-round) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (Visitor & Delivery Driver Safety) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Unfamiliar persons in live work zones) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Escorted access only, driver briefing card, PPE issue at gate) Tj ET
+BT /FB 8.5 Tf 40 490 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 474 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 462 Td (Document Control & Record Retention) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Hazard & Consequence: Superseded revision used in field) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Controls & Hold Points: Controlled copy register, revision check at TBT, obsolete copies withdrawn) Tj ET
+BT /FB 8.5 Tf 40 414 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 398 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 2335 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 11  -  Page 11 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Site Access & Security) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Unauthorised entry / public interface) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Turnstile or gate log, visitor induction, hoarding integrity checks) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Temporary Electrics - Distribution) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Damaged leads / RCD failure) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: 110V or RCD-protected supplies, weekly PAT/inspection register, cable ramps) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (Hot Works - Welding & Cutting) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Fire / sparks to combustibles) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Hot work permit, fire watch during + 60 min after, extinguishers at point of) Tj ET
+BT /FR 8.5 Tf 40 490 Td (work [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Work at Height - Scaffold Use) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Fall of person / incomplete scaffold) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 25 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: Scafftag system, weekly + after-alteration inspections, no unauthorised) Tj ET
+BT /FR 8.5 Tf 40 402 Td (alterations [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 390 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 374 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 2243 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 12  -  Page 12 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Lifting - Mobile Crane General) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Overload / load swing) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Lift plan per lift category, certified gear register, anemometer monitoring) Tj ET
+BT /FR 8.5 Tf 40 642 Td ([HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Plant Refuelling) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Fuel spill / fire) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Bunded bowser, drip trays, spill kit at point of use, no smoking zone) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Night Works) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Poor visibility / fatigue) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: Lighting survey \(min lux at task\), fatigue roster limits, hi-vis Class 3) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Heat Stress Management) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Heat exhaustion / heat stroke) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: WBGT monitoring, shaded rest + cool water, acclimatisation schedule, buddy) Tj ET
+BT /FR 8.5 Tf 40 402 Td (checks) Tj ET
+BT /FB 8.5 Tf 40 390 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 374 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 2339 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 13  -  Page 13 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Dust-Generating Works) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Respirable crystalline silica) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Water suppression, on-tool extraction, FFP3 face-fit tested, health) Tj ET
+BT /FR 8.5 Tf 40 642 Td (surveillance) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Noise-Intensive Works) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Noise-induced hearing loss) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Noise zones signed, hearing protection mandatory >85 dB\(A\), plant selection) Tj ET
+BT /FR 8.5 Tf 40 554 Td (low-noise first) Tj ET
+BT /FB 8.5 Tf 40 542 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 526 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 514 Td (Traffic Management - Internal Roads) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Hazard & Consequence: Vehicle collision at pinch points) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 478 Td (Controls & Hold Points: One-way system, 10 km/h limit, passing bays, trained traffic marshals) Tj ET
+BT /FB 8.5 Tf 40 466 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 450 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 438 Td (Welfare - Water, Rest, Sanitation) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Hazard & Consequence: Dehydration / hygiene illness) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Controls & Hold Points: Potable water points, shaded rest areas, serviced sanitation per headcount) Tj ET
+BT /FR 8.5 Tf 40 390 Td (ratio) Tj ET
+BT /FB 8.5 Tf 40 378 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 362 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 2243 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 14  -  Page 14 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Adverse Weather - Lightning & Storm) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Lightning strike / crane instability) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: 30-30 lightning rule, crane stand-down limits, secure loose materials) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Housekeeping - Access Routes) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Slips, trips and falls \(same level\)) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: Designated walkways kept clear, cable covers, daily supervisor walk-round) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (Visitor & Delivery Driver Safety) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Unfamiliar persons in live work zones) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Escorted access only, driver briefing card, PPE issue at gate) Tj ET
+BT /FB 8.5 Tf 40 490 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 474 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 462 Td (Document Control & Record Retention) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Hazard & Consequence: Superseded revision used in field) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Controls & Hold Points: Controlled copy register, revision check at TBT, obsolete copies withdrawn) Tj ET
+BT /FB 8.5 Tf 40 414 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 398 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 2290 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 15  -  Page 15 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Incident Reporting & Escalation) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Delayed reporting / evidence loss) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Immediate verbal + 24h written report, scene preservation, investigation per) Tj ET
+BT /FR 8.5 Tf 40 642 Td (severity matrix) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Subcontractor Coordination \(SIMOPS\)) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Conflicting simultaneous operations) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Daily SIMOPS meeting, shared permit board, interface risk review [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Manual Handling - General) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Musculoskeletal injury) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: Mechanical aids first, load weight labels, manual handling training records) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Storage of Flammables & Gas Cylinders) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Fire / cylinder projectile) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: Ventilated cage, upright chained cylinders, separation distances, signage) Tj ET
+BT /FB 8.5 Tf 40 402 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 386 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 35 0 R >>
+endobj
+35 0 obj
+<< /Length 2341 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 16  -  Page 16 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Excavation Services - Trial Pits) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Unknown service strike) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Drawings + CAT scan + hand-dig only within 500 mm of marked services [HOLD) Tj ET
+BT /FR 8.5 Tf 40 642 Td (POINT]) Tj ET
+BT /FB 8.5 Tf 40 630 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 614 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 602 Td (Concrete Washout) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Hazard & Consequence: Alkaline runoff to ground/drain) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Controls & Hold Points: Designated lined washout pit only, pH check before disposal) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Tower Crane - Climbing Operations) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Structural overload during climb) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 25 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: OEM climbing procedure, specialist crew, wind hold limits [HOLD POINT: climb) Tj ET
+BT /FR 8.5 Tf 40 478 Td (permit]) Tj ET
+BT /FB 8.5 Tf 40 466 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 450 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 438 Td (Demolition - Soft Strip) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Hazard & Consequence: Hidden asbestos / structural instability) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Controls & Hold Points: Pre-demolition survey, licensed removal where identified, engineer sequence) Tj ET
+BT /FR 8.5 Tf 40 390 Td (sign-off [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 378 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 362 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 37 0 R >>
+endobj
+37 0 obj
+<< /Length 2259 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 17  -  Page 17 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Piling - Bored Operations) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Auger entanglement / bore collapse) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Auger guards, exclusion zone, bore capping same shift) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Roadworks Interface - Public Highway) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Public vehicle incursion) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 20 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: Approved traffic management layout, advance signage, barrier-rated separation) Tj ET
+BT /FR 8.5 Tf 40 566 Td ([HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Res: 5 \(Low\)) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (Confined Welfare - Drinking Water Quality) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Hazard & Consequence: Contaminated supply illness) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Controls & Hold Points: Tested potable supply, dated containers, cleaning schedule) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (Fatigue - Extended Shifts) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Hazard & Consequence: Error from exhaustion on safety-critical tasks) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Init Risk: 15 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Controls & Hold Points: Max shift + rest rules, no safety-critical solo work after extended hours) Tj ET
+BT /FB 8.5 Tf 40 402 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 386 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 39 0 R >>
+endobj
+39 0 obj
+<< /Length 2179 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 18  -  Page 18 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Young & Inexperienced Workers) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Unrecognised hazards) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Named supervisor, restricted task list, enhanced supervision ratios) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Emergency Drill Programme) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Unpractised evacuation / slow muster) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: Monthly drill rotation \(fire, rescue, spill\), timed muster with roll call) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (First Aid Provision) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Inadequate response to injury) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 12 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Trained first aiders per shift ratio, stocked stations, hospital route posted) Tj ET
+BT /FB 8.5 Tf 40 490 Td (Res: 3 \(Low\)) Tj ET
+0.9 g 40 474 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 462 Td (PPE Issue & Compliance) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Hazard & Consequence: Non-use / damaged PPE) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Controls & Hold Points: Free issue + fit checks, PPE matrix by task, supervisor spot checks) Tj ET
+BT /FB 8.5 Tf 40 414 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 398 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 41 0 R >>
+endobj
+41 0 obj
+<< /Length 2234 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 19  -  Page 19 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Activity Matrix - Continuation Part 2) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Activity-based assessment continued - initial risk scored before controls, residual risk after) Tj ET
+BT /FR 8.5 Tf 40 724 Td (controls are verified in the field.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Safety Signage & Barriers Audit) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Hazard & Consequence: Missing or ignored warnings) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Controls & Hold Points: Weekly audit walk, multilingual pictorial signage, barrier integrity checks) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (Toolbox Talk Programme) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Hazard & Consequence: Generic talks with no task relevance) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Controls & Hold Points: Task-specific TBT before each shift, attendance signed, topics logged weekly) Tj ET
+BT /FB 8.5 Tf 40 566 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 550 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 538 Td (Management Site Tours) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Hazard & Consequence: Hazards normalised at worker level) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Init Risk: 9 \(Med\)) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Controls & Hold Points: Weekly leadership tour with close-out actions tracked to completion) Tj ET
+BT /FB 8.5 Tf 40 490 Td (Res: 2 \(Low\)) Tj ET
+0.9 g 40 474 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 462 Td (Change Management - Scope Variation) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Hazard & Consequence: Unassessed new hazards from changed method) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Init Risk: 16 \(High\)) Tj ET
+BT /FR 8.5 Tf 40 426 Td (Controls & Hold Points: MOC form before variation starts, RA revision re-briefed to crew [HOLD POINT]) Tj ET
+BT /FB 8.5 Tf 40 414 Td (Res: 4 \(Low\)) Tj ET
+0.9 g 40 398 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 43 0 R >>
+endobj
+43 0 obj
+<< /Length 1907 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 20  -  Page 20 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Residual Risk Summary & ALARP Statement) Tj ET
+BT /FR 8.5 Tf 40 736 Td (All activities are reduced to Low/Medium residual risk once the stated controls are verified in) Tj ET
+BT /FR 8.5 Tf 40 724 Td (place. No activity may start on initial risk alone.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (High \(15-25\) initial) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Count of Activities: Assessed per activity matrix) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Action Rule: Controls + hold points mandatory before start) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Authority: Site HSE authority) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Medium \(8-12\) residual) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Count of Activities: Monitor at supervision level) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Action Rule: Daily TBT reinforcement + spot checks) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Authority: Supervisor) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Low \(1-6\) residual) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Count of Activities: Majority of activities after controls) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Action Rule: Proceed under permit and supervision) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Authority: Permit issuer) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (ALARP Statement) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Count of Activities: Further risk reduction considered for every High initial item) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Action Rule: Grossly disproportionate measures documented, not silently dropped) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Authority: HSE Officer) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 45 0 R >>
+endobj
+45 0 obj
+<< /Length 1771 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 21  -  Page 21 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Hold Point Register) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Work must stop at each hold point until the named authority verifies and releases it. Hold points) Tj ET
+BT /FR 8.5 Tf 40 724 Td (are never self-released.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (HP-01 Permit Verification) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Where It Applies: Start of each high-risk activity) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Released By: Permit issuer) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Evidence: Signed permit at workface) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (HP-02 Isolation / LOTO) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Where It Applies: Energy isolation before work) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Released By: Authorised isolator) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Evidence: Lock register + prove-dead test) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (HP-03 Pre-Start Inspection) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Where It Applies: Plant, scaffold, lifting gear) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Released By: Competent inspector) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Evidence: Tag / inspection record) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (HP-04 Authority Sign-Off) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Where It Applies: Document approval before execution) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Released By: Client/site HSE authority) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Evidence: Signed approval block) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 48 0 R >> >> /Contents 47 0 R >>
+endobj
+47 0 obj
+<< /Length 1767 >>
+stream
+BT /FB 13 Tf 40 795 Td (Confined Space Entry & Gas Testing Risk Assessment) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-HSE-CSE-022  -  Rev. 0 - Page 22  -  Page 22 of 22) Tj ET
+BT /FB 11 Tf 40 756 Td (Review, Approval & Revision Record) Tj ET
+BT /FR 8.5 Tf 40 736 Td (This document is a professional draft. Field use requires review and formal approval by the) Tj ET
+BT /FR 8.5 Tf 40 724 Td (client/site HSE authority.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Prepared By) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Name / Organisation: SafetyWithAthar \(remote\)) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Responsibility: Draft preparation from supplied work-pack inputs) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Status: Rev. 0 issued) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Reviewed By) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Responsibility: Site HSE review against actual conditions) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Approved By) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Responsibility: Client / site HSE authority approval) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Revision History) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Name / Organisation: Rev. 0 - first issue for review) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Responsibility: Superseded revisions withdrawn from field use) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Status: Controlled) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+48 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 xref
-0 6
+0 49
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000261 00000 n 
+0000000331 00000 n 
+0000000468 00000 n 
+0000002811 00000 n 
+0000002948 00000 n 
+0000005323 00000 n 
+0000005460 00000 n 
+0000007746 00000 n 
+0000007885 00000 n 
+0000009506 00000 n 
+0000009645 00000 n 
+0000011416 00000 n 
+0000011555 00000 n 
+0000013300 00000 n 
+0000013439 00000 n 
+0000015952 00000 n 
+0000016091 00000 n 
+0000018476 00000 n 
+0000018615 00000 n 
+0000021002 00000 n 
+0000021141 00000 n 
+0000023434 00000 n 
+0000023573 00000 n 
+0000025961 00000 n 
+0000026100 00000 n 
+0000028396 00000 n 
+0000028535 00000 n 
+0000030927 00000 n 
+0000031066 00000 n 
+0000033362 00000 n 
+0000033501 00000 n 
+0000035844 00000 n 
+0000035983 00000 n 
+0000038377 00000 n 
+0000038516 00000 n 
+0000040828 00000 n 
+0000040967 00000 n 
+0000043199 00000 n 
+0000043338 00000 n 
+0000045625 00000 n 
+0000045764 00000 n 
+0000047724 00000 n 
+0000047863 00000 n 
+0000049687 00000 n 
+0000049826 00000 n 
+0000051646 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 49 /Root 1 0 R >>
 startxref
-2431
+51722
 %%EOF

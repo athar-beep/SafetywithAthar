@@ -3,52 +3,680 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R] /Count 18 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 5 0 R >>
+endobj
 5 0 obj
-<< /Length 2010 >>
+<< /Length 2307 >>
 stream
-BT
-/F1 10 Tf
-1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
-1 0 0 1 42 775 Tm (Document Title: Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj
-1 0 0 1 42 760 Tm (Category: Method Statement & HSE Plan   |   Status: Public-source demo sample \(Rev. 0   For revi) Tj
-1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 730 Tm (Summary: Structured RAMS / Method Statement covering crane setup, rigging gear certification, ex) Tj
-1 0 0 1 42 715 Tm () Tj
-1 0 0 1 42 700 Tm ([Page 1] Method Statement \(MOS\)   Critical & Routine Lifting Operations \(SWA-MOS-LIFT-004\)) Tj
-1 0 0 1 42 685 Tm (Operation Phase  |  Mandatory Technical Control  |  Hold Point / Limit  |  Sign-Off Role) Tj
-1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 655 Tm (* 4.1 Crane Positioning & Mats   Verify ground compaction report & 100% outrigger beam extension) Tj
-1 0 0 1 42 640 Tm (  [[HOLD POINT] Prior to boom raise] -> Lifting Supervisor \(Gate 01\)) Tj
-1 0 0 1 42 625 Tm (* 4.2 Rigging & Color Code Check   Inspect shackles, web slings & SWL tags against valid 6-month) Tj
-1 0 0 1 42 610 Tm (  [SWL > 125% load weight] -> Certified Rigger \(Gate 02\)) Tj
-1 0 0 1 42 595 Tm (* 4.3 Wind & Weather Monitoring   Continuous digital anemometer reading at boom tip elevation) Tj
-1 0 0 1 42 580 Tm (  [ Cease lift if wind >= 20 knots] -> Crane Operator / HSE \(Stop Work\)) Tj
-1 0 0 1 42 565 Tm (* 4.4 Exclusion Zone & Taglines   Hard physical barriers around slewing radius; twin non-conduct) Tj
-1 0 0 1 42 550 Tm (  [Zero personnel under suspended load] -> Appointed Banksman \(Enforced\)) Tj
-1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Drafted for client/site HSE authorit) Tj
-1 0 0 1 42 520 Tm () Tj
-1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
-ET
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - 18 Pages  -  Page 1 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (Method Statement \(MOS\) - Critical & Routine Lifting Operations) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Sections: 1. Scope - 2. Plant & Gear Certs - 3. Operational Sequence - 4. Hold Points - 5. Emergency) Tj ET
+BT /FR 8.5 Tf 40 724 Td (Plan) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (4.1 Crane Positioning & Mats) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Mandatory Technical Control: Verify ground compaction report & 100% outrigger beam extension) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Hold Point / Limit: [HOLD POINT] Prior to boom raise) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Sign-Off Role: Lifting Supervisor) Tj ET
+BT /FB 8.5 Tf 40 642 Td (Gate 01) Tj ET
+0.9 g 40 626 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 614 Td (4.2 Rigging & Color Code Check) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Mandatory Technical Control: Inspect shackles, web slings & SWL tags against valid 6-month 3rd-party) Tj ET
+BT /FR 8.5 Tf 40 590 Td (cert) Tj ET
+BT /FR 8.5 Tf 40 578 Td (Hold Point / Limit: SWL > 125% load weight) Tj ET
+BT /FR 8.5 Tf 40 566 Td (Sign-Off Role: Certified Rigger) Tj ET
+BT /FB 8.5 Tf 40 554 Td (Gate 02) Tj ET
+0.9 g 40 538 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 526 Td (4.3 Wind & Weather Monitoring) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Mandatory Technical Control: Continuous digital anemometer reading at boom tip elevation) Tj ET
+BT /FR 8.5 Tf 40 502 Td (Hold Point / Limit: Cease lift if wind >= 20 knots) Tj ET
+BT /FR 8.5 Tf 40 490 Td (Sign-Off Role: Crane Operator / HSE) Tj ET
+BT /FB 8.5 Tf 40 478 Td (Stop Work) Tj ET
+0.9 g 40 462 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 450 Td (4.4 Exclusion Zone & Taglines) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Mandatory Technical Control: Hard physical barriers around slewing radius; twin non-conductive) Tj ET
+BT /FR 8.5 Tf 40 426 Td (taglines) Tj ET
+BT /FR 8.5 Tf 40 414 Td (Hold Point / Limit: Zero personnel under suspended load) Tj ET
+BT /FR 8.5 Tf 40 402 Td (Sign-Off Role: Appointed Banksman) Tj ET
+BT /FB 8.5 Tf 40 390 Td (Enforced) Tj ET
+0.9 g 40 374 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only. Drafted for client/site HSE authority) Tj ET
 endstream
 endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1739 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 2  -  Page 2 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (1. Scope & References) Tj ET
+BT /FR 8.5 Tf 40 736 Td (This statement covers the defined lifting scope only; variations require revision and re-approval.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Applicable Codes) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: LOLER / ASME B30 series / manufacturer manuals) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Current revisions held by document control) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Register) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Scope Boundary) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Loads, cranes and locations as listed in the lift plan) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Out-of-scope lifts need a new plan) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Plan) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Reference Drawings) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Plot plan + load charts [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Verified revision at workface) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Doc control) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Interfaces) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: SIMOPS with adjacent packages) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Daily coordination meeting) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Minutes) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1693 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 3  -  Page 3 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (2. Roles & Responsibilities) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Named, competent appointments for every lifting role - no informal substitution.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Appointed Person) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Owns the lift plan and categorisation) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Competency certificate on file) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Appointment letter) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Lift Supervisor) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Controls the lift on the day) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Briefs crew, can stop the lift) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: TBT record) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Crane Operator) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Operates within chart limits only) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Licence + medical current) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Cert check) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Slinger / Signaller) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Rigging and signals only) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Certified, uses standard signals / radio) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Cert check) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1762 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 4  -  Page 4 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (3. Plant, Equipment & Certification) Tj ET
+BT /FR 8.5 Tf 40 736 Td (No equipment works without current third-party certification and pre-use checks.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Crane Certification) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Third-party thorough examination current) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Cert displayed + copy in lift pack) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Register) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Lifting Accessories) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Slings, shackles, spreader beams colour-coded) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Quarantine bin for defective gear) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Gear register) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Ground Assessment) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Bearing capacity verified for outrigger loads) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Mats/pads sized per calculation [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Calc sheet) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Pre-Use Checks) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Daily operator checklist before first lift) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Defects = machine stood down) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Checklist) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1737 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 5  -  Page 5 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (4. Sequence of Operations - Rigging & Setup) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Setup sequence is followed in order; shortcuts invalidate the lift plan.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Position Crane) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Per plot plan, outriggers fully extended) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Level within manufacturer tolerance) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Supervisor check) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Rig the Load) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Sling angles - design minimum, CoG confirmed) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Trial lift 100 mm to verify balance [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Trial record) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Set Exclusion Zone) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Hard barriers at swing + drop radius) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Sentries posted at entry points) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Walk-round) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Comms Check) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Radio channel + hand-signal backup agreed) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: All stations acknowledge) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Log) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1686 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 6  -  Page 6 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (5. Sequence of Operations - The Lift) Tj ET
+BT /FR 8.5 Tf 40 736 Td (One signaller controls the lift. Any person may call STOP.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Trial Lift) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Raise 100 mm, hold, check balance + brakes) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Abort and re-rig if load tilts) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Supervisor) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Travel / Slew) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Slow movements, tag lines controlling rotation) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Never over personnel - route pre-cleared) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Sentries) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Landing) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Load landed on prepared bearers) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Hands clear until load is stable) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Supervisor) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (De-Rig) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Slings removed only after load secured) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Gear inspected before storage) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Gear register) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1716 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 7  -  Page 7 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (6. Critical Lift Criteria) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Lifts meeting any criterion are planned as critical with enhanced controls.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (> 75% of Chart Capacity) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Utilisation calculated at worst radius) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Critical lift plan + AP sign-off [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Plan) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Tandem / Multi-Crane) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Load share per crane calculated) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Single lift director, rehearsed signals) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Plan) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Personnel Lifting) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Only with certified man-basket + dedicated plan) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Separate approval [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Permit) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Blind Lift) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Operator cannot see load or landing) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Relay signallers + CCTV where fitted) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Plan) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1619 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 8  -  Page 8 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (7. Weather & Environmental Limits) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Limits are hard stops, not guidance.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Wind) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Stop at manufacturer limit or 20 kt default) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Anemometer at jib height) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Log) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Lightning) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: 30-30 rule - stop, lower, stand clear) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Resume 30 min after last thunder) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Visibility) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Fog/darkness - lighting or postpone) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Signaller visible at all times) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Decision log) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Ground After Rain) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Re-verify bearing before resuming) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Re-inspection recorded) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Checklist) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 1683 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 9  -  Page 9 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (8. HSE Controls & PPE) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Task PPE supplements - never substitutes - engineered controls.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (PPE Matrix) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Helmet, hi-vis, gloves \(rigging\), safety footwear) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Harness only where MEWP/basket work applies) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Issue record) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Exclusion Enforcement) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: No entry under any circumstance during lift) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Sentries empowered to stop) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Briefing) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Housekeeping) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Rigging area kept clear of trip hazards) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Daily tidy of laydown) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Walk-round) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Fatigue) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Operator hours within site limits) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: No lift with fatigued operator) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Roster) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 1637 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 10  -  Page 10 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (9. Quality - Inspection & Test Plan \(Summary\)) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Hold and witness points agreed with the client inspector before work.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Material Receiving) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Certs + visual inspection on delivery) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Witness point) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: ITP sign) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Pre-Lift Inspection) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Crane + gear + ground verified) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Hold point) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: ITP sign) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Trial Lift) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Balance and brake hold verified) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Hold point) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: ITP sign) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Final Acceptance) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Load set and secured per drawing) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Sign-off before de-rig crew leaves) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: ITP sign) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 1630 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 11  -  Page 11 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (10. Training & Competency Records) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Copies held in the lift pack; originals with document control.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Operator Licence) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Category-matched and in date) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Checked weekly against register) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Register) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Rigger Certification) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Level per national/company scheme) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Colour-coded ID) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Register) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Medical Fitness) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Fitness for role confirmed) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Expiry tracked) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Register) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Induction & Briefing) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Site induction + this statement briefed) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Signed briefing sheet) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: File) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 1624 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 12  -  Page 12 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (11. Waste & Environmental Protection) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Lifting operations protect ground and drains at setup and breakdown.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Hydraulic Leaks) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Drip trays under parked plant) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Spill kit at crane pad) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Inspection) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Timber & Packing Waste) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Segregated at source) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Licensed removal route) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Waste log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Noise) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Plant idling minimised near receptors) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Working hours respected) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Log) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Fuel Storage) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Bunded, away from drains) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Refuelling procedure followed) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Checklist) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 1662 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 13  -  Page 13 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (12. Management of Change) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Any change to load, crane, ground, or sequence stops the job until re-planned.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Change Trigger) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Different load weight/CoG or crane position) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: STOP - notify Appointed Person) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: MOC form) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Re-Planning) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Plan revised + re-briefed) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: New revision number issued) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Doc control) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Field Copies) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Superseded plans withdrawn same shift) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Permit office check) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Register) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Crew Re-Brief) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Whole crew signs new revision) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: No signature = no participation) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Briefing sheet) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 1680 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 14  -  Page 14 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (13. Records & Handover Pack) Tj ET
+BT /FR 8.5 Tf 40 736 Td (The completed lift pack is handed to document control at package close-out.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Lift Plans \(As-Used\)) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Signed, with any field amendments marked) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Filed per package) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Pack index) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Checklists & Permits) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Daily checks + permits complete) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: No gaps unexplained) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Pack index) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Incident / Near-Miss Reports) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: All events logged, actions closed) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Lessons briefed to next package) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Register) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Certification Copies) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Crane + gear + personnel) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Valid at date of each lift) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Pack index) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 1707 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 15  -  Page 15 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (14. Interfaces With Other Contractors) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Shared work areas are coordinated daily; assumptions are treated as hazards.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (SIMOPS Meeting) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Daily, all package supervisors) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Conflicts resolved before permits issue) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Minutes) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Shared Crane Use) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Booking system with priority rules) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: No double-booking of radius zones) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Booking log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Overhead Conflicts) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Adjacent cranes anti-collision briefing) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Slew limits set where fitted) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Plan) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Ground Sharing) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Outrigger zones kept clear by all trades) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Barriers respected site-wide) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Walk-round) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 35 0 R >>
+endobj
+35 0 obj
+<< /Length 1646 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 16  -  Page 16 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (15. Continuous Improvement) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each completed lift improves the next plan.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Post-Lift Review) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Crew debrief after critical lifts) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Notes filed with plan) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Review note) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Near-Miss Trending) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Monthly review of lifting near-misses) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Actions tracked to close) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Register) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Plan Library) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Proven plans indexed for reuse \(with re-validation\)) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Re-validation mandatory per site) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Library) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Audit) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Quarterly lifting audit by HSE) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Findings to management review) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Audit report) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 37 0 R >>
+endobj
+37 0 obj
+<< /Length 1814 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 17  -  Page 17 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (Emergency Response Summary) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Site emergency arrangements to be confirmed against the actual project emergency plan before work) Tj ET
+BT /FR 8.5 Tf 40 724 Td (starts.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Injury / Collapse) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Immediate Action: Stop work, first aid, call site emergency number) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Equipment: First aid station + stretcher) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Notification: Supervisor - HSE Officer) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Fire) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Immediate Action: Raise alarm, attack only if trained and safe) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Equipment: Extinguishers at work point) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Notification: Control room / fire team) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Load Incident) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Immediate Action: Cordon area, do not re-rig until inspected) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Equipment: Barriers + lifting register) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Notification: Lifting supervisor - HSE) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Adverse Weather) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Immediate Action: Stand down lifting/height work at limits) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Equipment: Anemometer + lightning rule) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Notification: Site management broadcast) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 40 0 R >> >> /Contents 39 0 R >>
+endobj
+39 0 obj
+<< /Length 1778 >>
+stream
+BT /FB 13 Tf 40 795 Td (Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-MOS-LIFT-004  -  Rev. 0 - Page 18  -  Page 18 of 18) Tj ET
+BT /FB 11 Tf 40 756 Td (Review, Approval & Revision Record) Tj ET
+BT /FR 8.5 Tf 40 736 Td (This document is a professional draft. Field use requires review and formal approval by the) Tj ET
+BT /FR 8.5 Tf 40 724 Td (client/site HSE authority.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Prepared By) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Name / Organisation: SafetyWithAthar \(remote\)) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Responsibility: Draft preparation from supplied work-pack inputs) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Status: Rev. 0 issued) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Reviewed By) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Responsibility: Site HSE review against actual conditions) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Approved By) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Responsibility: Client / site HSE authority approval) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Revision History) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Name / Organisation: Rev. 0 - first issue for review) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Responsibility: Superseded revisions withdrawn from field use) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Status: Controlled) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+40 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 xref
-0 6
+0 41
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000233 00000 n 
+0000000303 00000 n 
+0000000440 00000 n 
+0000002799 00000 n 
+0000002936 00000 n 
+0000004727 00000 n 
+0000004864 00000 n 
+0000006609 00000 n 
+0000006748 00000 n 
+0000008563 00000 n 
+0000008702 00000 n 
+0000010492 00000 n 
+0000010631 00000 n 
+0000012370 00000 n 
+0000012509 00000 n 
+0000014278 00000 n 
+0000014417 00000 n 
+0000016089 00000 n 
+0000016228 00000 n 
+0000017964 00000 n 
+0000018103 00000 n 
+0000019793 00000 n 
+0000019932 00000 n 
+0000021615 00000 n 
+0000021754 00000 n 
+0000023431 00000 n 
+0000023570 00000 n 
+0000025285 00000 n 
+0000025424 00000 n 
+0000027157 00000 n 
+0000027296 00000 n 
+0000029056 00000 n 
+0000029195 00000 n 
+0000030894 00000 n 
+0000031033 00000 n 
+0000032900 00000 n 
+0000033039 00000 n 
+0000034870 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 41 /Root 1 0 R >>
 startxref
-2373
+34946
 %%EOF

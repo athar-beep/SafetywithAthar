@@ -3,52 +3,359 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 9 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 5 0 R >>
+endobj
 5 0 obj
-<< /Length 2033 >>
+<< /Length 2171 >>
 stream
-BT
-/F1 10 Tf
-1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
-1 0 0 1 42 775 Tm (Document Title: Civil Excavation & Underground Utility JSA / JHA) Tj
-1 0 0 1 42 760 Tm (Category: JSA / JHA   |   Status: Public-source demo sample \(Rev. 0   For review only\)) Tj
-1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 730 Tm (Summary: Step-by-step Job Safety Analysis breaking down utility scanning, trench shoring, spoil ) Tj
-1 0 0 1 42 715 Tm () Tj
-1 0 0 1 42 700 Tm ([Page 1] Job Safety Analysis \(JSA / JHA\)   Deep Trenching & Utilities \(SWA-JSA-CIV-014\)) Tj
-1 0 0 1 42 685 Tm (Job Step Sequence  |  Potential Hazards  |  Preventive Controls  |  Action By) Tj
-1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 655 Tm (* Step 1: Underground Service Scan   Strike on energized HV cable or pressurized pipe) Tj
-1 0 0 1 42 640 Tm (  [As-built drawing check + calibrated CAT4 scan + mark route] -> Surveyor / HSE [HOLD] \(PTW Gat) Tj
-1 0 0 1 42 625 Tm (* Step 2: Trial Pit Hand Digging   Mechanical bucket contact with buried conduit) Tj
-1 0 0 1 42 610 Tm (  [Insulated hand tools within 500mm of marked service line] -> Civil Foreman \(Verified\)) Tj
-1 0 0 1 42 595 Tm (* Step 3: Trench Battering & Shoring   Sidewall cave-in / worker entrapment \(>1.2m depth\)) Tj
-1 0 0 1 42 580 Tm (  [Install hydraulic trench box or 45  benching + 1m spoil clearance] -> Site Engineer \(Engineer) Tj
-1 0 0 1 42 565 Tm (* Step 4: Access & Gas Monitoring   Oxygen deficiency / H2S accumulation in deep cut) Tj
-1 0 0 1 42 550 Tm (  [Multi-gas detector pre-entry check + secured ladder every 7.5m] -> Authorized Gas Tester \(Log) Tj
-1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Ready for site crew briefing.) Tj
-1 0 0 1 42 520 Tm () Tj
-1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
-ET
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - 9 Pages  -  Page 1 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Job Safety Analysis \(JSA / JHA\) - Deep Trenching & Utilities) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Task Scope: Mechanical & Manual Excavation to -2.4m Depth - Permit Required: Excavation PTW) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Step 1: Underground Service Scan) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Potential Hazards: Strike on energized HV cable or pressurized pipe) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Preventive Controls: As-built drawing check + calibrated CAT4 scan + mark route) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Action By: Surveyor / HSE [HOLD]) Tj ET
+BT /FB 8.5 Tf 40 654 Td (PTW Gate) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Step 2: Trial Pit Hand Digging) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Potential Hazards: Mechanical bucket contact with buried conduit) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Preventive Controls: Insulated hand tools within 500mm of marked service line) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Action By: Civil Foreman) Tj ET
+BT /FB 8.5 Tf 40 578 Td (Verified) Tj ET
+0.9 g 40 562 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 550 Td (Step 3: Trench Battering & Shoring) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Potential Hazards: Sidewall cave-in / worker entrapment \(>1.2m depth\)) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Preventive Controls: Install hydraulic trench box or 45- benching + 1m spoil clearance) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Action By: Site Engineer) Tj ET
+BT /FB 8.5 Tf 40 502 Td (Engineered) Tj ET
+0.9 g 40 486 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 474 Td (Step 4: Access & Gas Monitoring) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Potential Hazards: Oxygen deficiency / H2S accumulation in deep cut) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Preventive Controls: Multi-gas detector pre-entry check + secured ladder every 7.5m) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Action By: Authorized Gas Tester) Tj ET
+BT /FB 8.5 Tf 40 426 Td (Logged) Tj ET
+0.9 g 40 410 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only. Ready for site crew briefing.) Tj ET
 endstream
 endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1819 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 2  -  Page 2 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Step Sequence - Preparation & Survey) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each step is briefed to the crew before the shift starts; the JSA is re-validated if conditions) Tj ET
+BT /FR 8.5 Tf 40 724 Td (change.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Review Drawings & Permits) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Detail: Utility drawings may be incomplete or outdated) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Control / Requirement: Permit-to-dig issued, drawings briefed at TBT) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Verification: Permit copy) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Mark Out Excavation) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Detail: Wrong location - service strike) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Control / Requirement: Survey pegs + spray lines verified with supervisor) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: Walk-round) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Set Up Work Zone) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Detail: Public / plant interface) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Control / Requirement: Hard barriers + signage before breaking ground) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Verification: Checklist) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Brief the Crew \(TBT\)) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Detail: Unbriefed worker enters unsafe zone) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Control / Requirement: Task-specific TBT signed by all crew) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Verification: TBT record) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1812 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 3  -  Page 3 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Step Sequence - Utility Scan & Trial Pits) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each step is briefed to the crew before the shift starts; the JSA is re-validated if conditions) Tj ET
+BT /FR 8.5 Tf 40 724 Td (change.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (CAT & Genny Scan) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Detail: Undetected live cable) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Control / Requirement: Calibrated scanner, trained operator, grid pattern scan [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Verification: Scan record) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Hand-Dug Trial Pits) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Detail: Tool strike on service) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Control / Requirement: Insulated tools, hand-dig within 500 mm of marks) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: Supervisor check) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Expose & Support Services) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Detail: Unsupported service sagging/damage) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Control / Requirement: Timber supports, service owner notified) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Verification: Photo record) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Re-Scan After Exposure) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Detail: Deeper unmarked services) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Control / Requirement: Second scan pass before machine dig) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Verification: Scan record) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1764 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 4  -  Page 4 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Step Sequence - Machine Excavation) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each step is briefed to the crew before the shift starts; the JSA is re-validated if conditions) Tj ET
+BT /FR 8.5 Tf 40 724 Td (change.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Position Excavator) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Detail: Plant overturn / edge surcharge) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Control / Requirement: Firm level pad, spoil - 1 m from edge or per design) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Verification: Operator check) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Dig in Layers) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Detail: Undermining trench wall) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Control / Requirement: Shallow passes, banksman watching walls) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: Visual) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Spoil Management) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Detail: Spoil rollback into trench) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Control / Requirement: Toe boards / stop blocks, haul route segregated) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Verification: Daily check) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Dewatering) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Detail: Water softening trench base) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Control / Requirement: Sump + pump, discharge to approved point) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Verification: Inspection) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1842 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 5  -  Page 5 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Step Sequence - Shoring & Access) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each step is briefed to the crew before the shift starts; the JSA is re-validated if conditions) Tj ET
+BT /FR 8.5 Tf 40 724 Td (change.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Install Support System) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Detail: Collapse during installation) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Control / Requirement: Install from safe position, designed system only [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Verification: Competent person) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Ladder / Ramp Access) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Detail: Fall entering trench) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Control / Requirement: Secured ladders extending 1 m above lip, every 15 m) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: Daily check) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Edge Protection) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Detail: Person or material falls in) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Control / Requirement: Guardrails or hard barriers at all open edges) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Verification: Walk-round) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Daily Inspection) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Detail: Ground movement after rain/weekend) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Control / Requirement: Competent-person inspection before each shift + after rain [HOLD POINT]) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Verification: Inspection form) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1792 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 6  -  Page 6 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Step Sequence - Work Inside the Excavation) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Each step is briefed to the crew before the shift starts; the JSA is re-validated if conditions) Tj ET
+BT /FR 8.5 Tf 40 724 Td (change.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Pipe / Duct Laying) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Detail: Load swing over workers) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Control / Requirement: No workers under suspended loads, tag lines used) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Verification: Lift plan) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Compaction Works) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Detail: HAVS / plant interface) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Control / Requirement: HAVS log, pedestrian exclusion while compacting) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Verification: Log) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Housekeeping in Trench) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Detail: Trips in confined trench floor) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Control / Requirement: Materials stacked clear of access route) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Verification: Supervisor check) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Atmosphere Awareness) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Detail: Gas accumulation in deep trench) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Control / Requirement: Test atmosphere where depth/source requires) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Verification: Gas test record) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1902 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 7  -  Page 7 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Residual Risk Summary & ALARP Statement) Tj ET
+BT /FR 8.5 Tf 40 736 Td (All activities are reduced to Low/Medium residual risk once the stated controls are verified in) Tj ET
+BT /FR 8.5 Tf 40 724 Td (place. No activity may start on initial risk alone.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (High \(15-25\) initial) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Count of Activities: Assessed per activity matrix) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Action Rule: Controls + hold points mandatory before start) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Authority: Site HSE authority) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Medium \(8-12\) residual) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Count of Activities: Monitor at supervision level) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Action Rule: Daily TBT reinforcement + spot checks) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Authority: Supervisor) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Low \(1-6\) residual) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Count of Activities: Majority of activities after controls) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Action Rule: Proceed under permit and supervision) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Authority: Permit issuer) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (ALARP Statement) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Count of Activities: Further risk reduction considered for every High initial item) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Action Rule: Grossly disproportionate measures documented, not silently dropped) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Authority: HSE Officer) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1766 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 8  -  Page 8 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Hold Point Register) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Work must stop at each hold point until the named authority verifies and releases it. Hold points) Tj ET
+BT /FR 8.5 Tf 40 724 Td (are never self-released.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (HP-01 Permit Verification) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Where It Applies: Start of each high-risk activity) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Released By: Permit issuer) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Evidence: Signed permit at workface) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (HP-02 Isolation / LOTO) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Where It Applies: Energy isolation before work) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Released By: Authorised isolator) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Evidence: Lock register + prove-dead test) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (HP-03 Pre-Start Inspection) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Where It Applies: Plant, scaffold, lifting gear) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Released By: Competent inspector) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Evidence: Tag / inspection record) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (HP-04 Authority Sign-Off) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Where It Applies: Document approval before execution) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Released By: Client/site HSE authority) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Evidence: Signed approval block) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 22 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 1762 >>
+stream
+BT /FB 13 Tf 40 795 Td (Civil Excavation & Underground Utility JSA / JHA) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-JSA-CIV-014  -  Rev. 0 - Page 9  -  Page 9 of 9) Tj ET
+BT /FB 11 Tf 40 756 Td (Review, Approval & Revision Record) Tj ET
+BT /FR 8.5 Tf 40 736 Td (This document is a professional draft. Field use requires review and formal approval by the) Tj ET
+BT /FR 8.5 Tf 40 724 Td (client/site HSE authority.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (Prepared By) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Name / Organisation: SafetyWithAthar \(remote\)) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Responsibility: Draft preparation from supplied work-pack inputs) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Status: Rev. 0 issued) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (Reviewed By) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Responsibility: Site HSE review against actual conditions) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (Approved By) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Name / Organisation: [SITE INPUT REQUIRED]) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Responsibility: Client / site HSE authority approval) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Status: [HOLD POINT]) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Revision History) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Name / Organisation: Rev. 0 - first issue for review) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Responsibility: Superseded revisions withdrawn from field use) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Status: Controlled) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 xref
-0 6
+0 23
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000169 00000 n 
+0000000239 00000 n 
+0000000376 00000 n 
+0000002599 00000 n 
+0000002736 00000 n 
+0000004607 00000 n 
+0000004744 00000 n 
+0000006608 00000 n 
+0000006747 00000 n 
+0000008564 00000 n 
+0000008703 00000 n 
+0000010598 00000 n 
+0000010737 00000 n 
+0000012582 00000 n 
+0000012721 00000 n 
+0000014676 00000 n 
+0000014815 00000 n 
+0000016634 00000 n 
+0000016773 00000 n 
+0000018588 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 23 /Root 1 0 R >>
 startxref
-2396
+18664
 %%EOF

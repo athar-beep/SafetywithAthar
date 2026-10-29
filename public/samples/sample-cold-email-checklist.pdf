@@ -3,52 +3,244 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 6 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 5 0 R >>
+endobj
 5 0 obj
-<< /Length 1907 >>
+<< /Length 2027 >>
 stream
-BT
-/F1 10 Tf
-1 0 0 1 42 790 Tm (SafetyWithAthar   Cold Email Infrastructure) Tj
-1 0 0 1 42 775 Tm (Document Title: SPF / DKIM / DMARC Configuration & Setup Checklist) Tj
-1 0 0 1 42 760 Tm (Category: SPF / DKIM / DMARC Checklist   |   Status: Sanitized technical sample \(Rev. 0   Refere) Tj
-1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 730 Tm (Summary: Sanitized DNS authentication record sheet showing SPF lookup consolidation, 2048-bit DK) Tj
-1 0 0 1 42 715 Tm () Tj
-1 0 0 1 42 700 Tm ([Page 1] DNS Authentication & Alignment Verification Sheet \(SWA-DNS-AUTH-01\)) Tj
-1 0 0 1 42 685 Tm (DNS Record / Host  |  Sanitized Record Value  |  Validation Check  |  Auth State) Tj
-1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
-1 0 0 1 42 655 Tm (* TXT  @  [SPF]   v=spf1 include:_spf.google.com ~all) Tj
-1 0 0 1 42 640 Tm (  [Lookup count: 3/10 max   Single TXT record enforced] -> SPF Aligned \(PASS\)) Tj
-1 0 0 1 42 625 Tm (* TXT  google._domainkey   v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...) Tj
-1 0 0 1 42 610 Tm (  [2048-bit RSA public key   Header signature verified] -> DKIM Signed \(PASS\)) Tj
-1 0 0 1 42 595 Tm (* TXT  _dmarc   v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc@ops.example; adkim=s; aspf=s) Tj
-1 0 0 1 42 580 Tm (  [Strict DKIM & SPF domain alignment active] -> DMARC Policy \(PASS\)) Tj
-1 0 0 1 42 565 Tm (* CNAME  link.mail   track.outbound-engine.example) Tj
-1 0 0 1 42 550 Tm (  [Isolated tracking subdomain with HTTPS certificate] -> CNAME Active \(SSL OK\)) Tj
-1 0 0 1 42 535 Tm (Note: Sanitized public demonstration sample   Rev. 0   Improves sending readiness; no inbox plac) Tj
-1 0 0 1 42 520 Tm () Tj
-1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
-ET
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - 6 Pages  -  Page 1 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (DNS Authentication & Alignment Verification Sheet) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Environment: Cloudflare DNS + Google Workspace Mailboxes - All client domains redacted) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (TXT @ [SPF]) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Sanitized Record Value: v=spf1 include:_spf.google.com ~all) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Validation Check: Lookup count: 3/10 max - Single TXT record enforced) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Auth State: SPF Aligned) Tj ET
+BT /FB 8.5 Tf 40 654 Td (PASS) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (TXT google._domainkey) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Sanitized Record Value: v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Validation Check: 2048-bit RSA public key - Header signature verified) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Auth State: DKIM Signed) Tj ET
+BT /FB 8.5 Tf 40 578 Td (PASS) Tj ET
+0.9 g 40 562 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 550 Td (TXT _dmarc) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Sanitized Record Value: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc@ops.example; adkim=s; aspf=s) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Validation Check: Strict DKIM & SPF domain alignment active) Tj ET
+BT /FR 8.5 Tf 40 514 Td (Auth State: DMARC Policy) Tj ET
+BT /FB 8.5 Tf 40 502 Td (PASS) Tj ET
+0.9 g 40 486 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 474 Td (CNAME link.mail) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Sanitized Record Value: track.outbound-engine.example) Tj ET
+BT /FR 8.5 Tf 40 450 Td (Validation Check: Isolated tracking subdomain with HTTPS certificate) Tj ET
+BT /FR 8.5 Tf 40 438 Td (Auth State: CNAME Active) Tj ET
+BT /FB 8.5 Tf 40 426 Td (SSL OK) Tj ET
+0.9 g 40 410 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Sanitized public demonstration sample - Rev. 0 - Improves sending readiness; no inbox placement) Tj ET
 endstream
 endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1645 >>
+stream
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - Page 2  -  Page 2 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (SPF Deep-Dive) Tj ET
+BT /FR 8.5 Tf 40 736 Td (One SPF record per domain, evaluated within the 10-lookup limit.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Record Consolidation) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Duplicate TXT records merged) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: Zero permerror responses) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: DNS query) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Include Chain) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: _spf.google.com / platform includes) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Total lookups counted + documented) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Lookup audit) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Mechanism Order) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: ip4 entries before includes where used) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: No redirect loops) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Syntax check) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Softfail - Hardening) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: ~all during testing, -all at enforcement) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Change logged with date) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Change record) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1661 >>
+stream
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - Page 3  -  Page 3 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (DKIM Verification) Tj ET
+BT /FR 8.5 Tf 40 736 Td (2048-bit keys wherever the platform supports them; signatures verified from real test mail.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Key Generation) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Platform-generated selector + public key TXT) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: 2048-bit RSA minimum) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: DNS published) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Selector Hygiene) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: One active selector per service) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Retired selectors removed) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Register) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Header Test) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Authentication-Results inspected on test mail) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: dkim=pass with aligned domain) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: PASS) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Rotation) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Keys rotated on platform schedule) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Old key revoked after overlap) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Calendar) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1657 >>
+stream
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - Page 4  -  Page 4 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (DMARC Policy & Reporting) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Policy tightens in stages while aggregate reports confirm legitimate sources are aligned.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Stage 1 - Monitor) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: p=none with rua reporting address) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: 7-14 days of reports reviewed) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: Report log) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (Stage 2 - Quarantine) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: p=quarantine pct=100) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Strict adkim/aspf alignment) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Report log) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Stage 3 - Reject) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: p=reject for full enforcement) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Only after zero unexplained failures) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Sign-off) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Forensic Option) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: ruf address where legally permitted) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Privacy reviewed) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Optional) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1717 >>
+stream
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - Page 5  -  Page 5 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (Tracking Domain, MX & Postmaster Checks) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Supporting records that keep tracking branded and mail flow healthy.) Tj ET
+0.75 g 40 718 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 702 Td (Custom Tracking CNAME) Tj ET
+BT /FR 8.5 Tf 40 690 Td (Detail: Branded subdomain - platform endpoint) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Control / Requirement: SSL certificate active) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Verification: HTTPS check) Tj ET
+0.9 g 40 650 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 638 Td (MX Integrity) Tj ET
+BT /FR 8.5 Tf 40 626 Td (Detail: Workspace MX untouched by sending setup) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Control / Requirement: Inbound mail tested after changes) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Verification: Test mail) Tj ET
+0.9 g 40 586 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 574 Td (Postmaster Registration) Tj ET
+BT /FR 8.5 Tf 40 562 Td (Detail: Domains verified in Google Postmaster Tools) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Control / Requirement: Spam-rate dashboard reviewed weekly) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Verification: Account) Tj ET
+0.9 g 40 522 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 510 Td (Blacklist Baseline) Tj ET
+BT /FR 8.5 Tf 40 498 Td (Detail: Domain + sending IPs screened) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Control / Requirement: Delisting requested before warm-up if listed) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Verification: Baseline log) Tj ET
+0.9 g 40 458 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Public-source demo sample - Rev. 0 - For review only - not approved for execution. Site-specific) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /FR 3 0 R /FB 16 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1679 >>
+stream
+BT /FB 13 Tf 40 795 Td (SPF / DKIM / DMARC Configuration & Setup Checklist) Tj ET
+BT /FR 9 Tf 40 778 Td (SWA-DNS-AUTH-01  -  Rev. 0 - Page 6  -  Page 6 of 6) Tj ET
+BT /FB 11 Tf 40 756 Td (Verification Results & Sign-Off) Tj ET
+BT /FR 8.5 Tf 40 736 Td (Authentication is verified from live DNS responses, not screenshots. Any failed check blocks warm-up) Tj ET
+BT /FR 8.5 Tf 40 724 Td (until corrected.) Tj ET
+0.75 g 40 706 515 0.6 re f 0 g
+BT /FB 8.5 Tf 40 690 Td (SPF evaluation) Tj ET
+BT /FR 8.5 Tf 40 678 Td (Tool / Method: DNS lookup count + syntax validation) Tj ET
+BT /FR 8.5 Tf 40 666 Td (Result: -10 lookups, single record, aligned) Tj ET
+BT /FR 8.5 Tf 40 654 Td (Status: PASS) Tj ET
+0.9 g 40 638 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 626 Td (DKIM signing) Tj ET
+BT /FR 8.5 Tf 40 614 Td (Tool / Method: Test mail header inspection) Tj ET
+BT /FR 8.5 Tf 40 602 Td (Result: 2048-bit signature verifies) Tj ET
+BT /FR 8.5 Tf 40 590 Td (Status: PASS) Tj ET
+0.9 g 40 574 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 562 Td (DMARC enforcement) Tj ET
+BT /FR 8.5 Tf 40 550 Td (Tool / Method: Policy record + aggregate reports) Tj ET
+BT /FR 8.5 Tf 40 538 Td (Result: p=quarantine/reject with strict alignment) Tj ET
+BT /FR 8.5 Tf 40 526 Td (Status: PASS) Tj ET
+0.9 g 40 510 515 0.4 re f 0 g
+BT /FB 8.5 Tf 40 498 Td (Sign-off) Tj ET
+BT /FR 8.5 Tf 40 486 Td (Tool / Method: Prepared by SafetyWithAthar) Tj ET
+BT /FR 8.5 Tf 40 474 Td (Result: Client domains fully redacted in this sample) Tj ET
+BT /FR 8.5 Tf 40 462 Td (Status: Rev. 0) Tj ET
+0.9 g 40 446 515 0.4 re f 0 g
+BT /FR 7.5 Tf 40 48 Td (Sanitized public demonstration - Rev. 0 - No client domains, credentials, or private IPs exposed.) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
 xref
-0 6
+0 17
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000148 00000 n 
+0000000218 00000 n 
+0000000355 00000 n 
+0000002434 00000 n 
+0000002571 00000 n 
+0000004268 00000 n 
+0000004405 00000 n 
+0000006118 00000 n 
+0000006257 00000 n 
+0000007967 00000 n 
+0000008106 00000 n 
+0000009876 00000 n 
+0000010015 00000 n 
+0000011747 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 17 /Root 1 0 R >>
 startxref
-2270
+11823
 %%EOF

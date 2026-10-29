@@ -219,38 +219,16 @@ export function SampleGallerySection({
       error: null,
     });
 
-    try {
-      const response = await fetch(`/api/samples/${encodeURIComponent(sample.id)}/signed-url`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-      });
-      if (!response.ok) {
-        throw new Error('Could not generate signed document URL.');
-      }
-      const data = await response.json();
-      setSignedUrlState({
-        loading: false,
-        url: data.signedUrl ?? `/api/samples/${encodeURIComponent(sample.id)}/document.pdf`,
-        downloadUrl:
-          data.downloadUrl ??
-          `/api/samples/${encodeURIComponent(sample.id)}/document.pdf?download=1`,
-        expiresAt: data.expiresAt ?? null,
-        note: data.note ?? null,
-        error: null,
-      });
-    } catch (err) {
-      setSignedUrlState({
-        loading: false,
-        url: `/api/samples/${encodeURIComponent(sample.id)}/document.pdf`,
-        downloadUrl: `/api/samples/${encodeURIComponent(sample.id)}/document.pdf?download=1`,
-        expiresAt: null,
-        note: null,
-        error:
-          err instanceof Error
-            ? err.message
-            : 'Unable to retrieve time-limited signed URL. Using direct document viewer.',
-      });
-    }
+    // GitHub Pages edition: the demo PDF is a static file bundled with the site.
+    const staticUrl = `${import.meta.env.BASE_URL}samples/${encodeURIComponent(sample.id)}.pdf`;
+    setSignedUrlState({
+      loading: false,
+      url: staticUrl,
+      downloadUrl: staticUrl,
+      expiresAt: null,
+      note: 'Published demo sample — static document bundled with this site.',
+      error: null,
+    });
   };
 
   return (

@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1907 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 42 790 Tm (SafetyWithAthar   Cold Email Infrastructure) Tj
+1 0 0 1 42 775 Tm (Document Title: SPF / DKIM / DMARC Configuration & Setup Checklist) Tj
+1 0 0 1 42 760 Tm (Category: SPF / DKIM / DMARC Checklist   |   Status: Sanitized technical sample \(Rev. 0   Refere) Tj
+1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 730 Tm (Summary: Sanitized DNS authentication record sheet showing SPF lookup consolidation, 2048-bit DK) Tj
+1 0 0 1 42 715 Tm () Tj
+1 0 0 1 42 700 Tm ([Page 1] DNS Authentication & Alignment Verification Sheet \(SWA-DNS-AUTH-01\)) Tj
+1 0 0 1 42 685 Tm (DNS Record / Host  |  Sanitized Record Value  |  Validation Check  |  Auth State) Tj
+1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (* TXT  @  [SPF]   v=spf1 include:_spf.google.com ~all) Tj
+1 0 0 1 42 640 Tm (  [Lookup count: 3/10 max   Single TXT record enforced] -> SPF Aligned \(PASS\)) Tj
+1 0 0 1 42 625 Tm (* TXT  google._domainkey   v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...) Tj
+1 0 0 1 42 610 Tm (  [2048-bit RSA public key   Header signature verified] -> DKIM Signed \(PASS\)) Tj
+1 0 0 1 42 595 Tm (* TXT  _dmarc   v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc@ops.example; adkim=s; aspf=s) Tj
+1 0 0 1 42 580 Tm (  [Strict DKIM & SPF domain alignment active] -> DMARC Policy \(PASS\)) Tj
+1 0 0 1 42 565 Tm (* CNAME  link.mail   track.outbound-engine.example) Tj
+1 0 0 1 42 550 Tm (  [Isolated tracking subdomain with HTTPS certificate] -> CNAME Active \(SSL OK\)) Tj
+1 0 0 1 42 535 Tm (Note: Sanitized public demonstration sample   Rev. 0   Improves sending readiness; no inbox plac) Tj
+1 0 0 1 42 520 Tm () Tj
+1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2270
+%%EOF

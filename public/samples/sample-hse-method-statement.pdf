@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2010 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
+1 0 0 1 42 775 Tm (Document Title: Heavy Lifting & Crane Operations Method Statement & HSE Plan) Tj
+1 0 0 1 42 760 Tm (Category: Method Statement & HSE Plan   |   Status: Public-source demo sample \(Rev. 0   For revi) Tj
+1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 730 Tm (Summary: Structured RAMS / Method Statement covering crane setup, rigging gear certification, ex) Tj
+1 0 0 1 42 715 Tm () Tj
+1 0 0 1 42 700 Tm ([Page 1] Method Statement \(MOS\)   Critical & Routine Lifting Operations \(SWA-MOS-LIFT-004\)) Tj
+1 0 0 1 42 685 Tm (Operation Phase  |  Mandatory Technical Control  |  Hold Point / Limit  |  Sign-Off Role) Tj
+1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (* 4.1 Crane Positioning & Mats   Verify ground compaction report & 100% outrigger beam extension) Tj
+1 0 0 1 42 640 Tm (  [[HOLD POINT] Prior to boom raise] -> Lifting Supervisor \(Gate 01\)) Tj
+1 0 0 1 42 625 Tm (* 4.2 Rigging & Color Code Check   Inspect shackles, web slings & SWL tags against valid 6-month) Tj
+1 0 0 1 42 610 Tm (  [SWL > 125% load weight] -> Certified Rigger \(Gate 02\)) Tj
+1 0 0 1 42 595 Tm (* 4.3 Wind & Weather Monitoring   Continuous digital anemometer reading at boom tip elevation) Tj
+1 0 0 1 42 580 Tm (  [ Cease lift if wind >= 20 knots] -> Crane Operator / HSE \(Stop Work\)) Tj
+1 0 0 1 42 565 Tm (* 4.4 Exclusion Zone & Taglines   Hard physical barriers around slewing radius; twin non-conduct) Tj
+1 0 0 1 42 550 Tm (  [Zero personnel under suspended load] -> Appointed Banksman \(Enforced\)) Tj
+1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Drafted for client/site HSE authorit) Tj
+1 0 0 1 42 520 Tm () Tj
+1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2373
+%%EOF

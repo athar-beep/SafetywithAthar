@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1983 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 42 790 Tm (SafetyWithAthar   Cold Email Infrastructure) Tj
+1 0 0 1 42 775 Tm (Document Title: Cold Email Infrastructure Setup   Secondary Domain & Warm-Up Blueprint) Tj
+1 0 0 1 42 760 Tm (Category: Cold Email Infrastructure Setup   |   Status: Sanitized technical sample \(Rev. 0   Set) Tj
+1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 730 Tm (Summary: Sanitized multi-domain sending architecture showing primary domain isolation, mailbox d) Tj
+1 0 0 1 42 715 Tm () Tj
+1 0 0 1 42 700 Tm ([Page 1] Multi-Domain Outbound Architecture & Warm-Up Schedule \(SWA-INFRA-ARC-02\)) Tj
+1 0 0 1 42 685 Tm (Infrastructure Layer  |  Configuration Standard  |  Volume / Threshold  |  Verification) Tj
+1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (* Primary Root Domain   Strict DMARC p=reject   Zero cold outbound traffic permitted) Tj
+1 0 0 1 42 640 Tm (  [0 cold sends / day \(Isolated\)] -> Reputation Shielded \(Protected\)) Tj
+1 0 0 1 42 625 Tm (* Secondary Sending Domains   301 HTTPS redirect to primary + full SPF, DKIM 2048-bit & DMARC) Tj
+1 0 0 1 42 610 Tm (  [2 mailboxes per domain] -> MX & Auth Verified \(Active\)) Tj
+1 0 0 1 42 595 Tm (* Days 01 14 Warm-Up Ramp   Gradual daily increment \(+2 sends/day\) with 30% conversational repli) Tj
+1 0 0 1 42 580 Tm (  [10   30 emails / day / box] -> 0% Hard Bounce Gate \(Ramping\)) Tj
+1 0 0 1 42 565 Tm (* Campaign Readiness Audit   Plain-text ratio check, RFC 8058 List-Unsubscribe header, blacklist) Tj
+1 0 0 1 42 550 Tm (  [Max 35 45 sends / day / box] -> Pre-Launch Cleared \(Ready\)) Tj
+1 0 0 1 42 535 Tm (Note: Sanitized public demonstration sample   Rev. 0   Configures technical readiness; never cla) Tj
+1 0 0 1 42 520 Tm () Tj
+1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2346
+%%EOF

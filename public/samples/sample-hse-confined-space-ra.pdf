@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2068 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
+1 0 0 1 42 775 Tm (Document Title: Confined Space Entry & Gas Testing Risk Assessment) Tj
+1 0 0 1 42 760 Tm (Category: Risk Assessment   |   Status: Public-source demo sample \(Rev. 0   For review only\)) Tj
+1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 730 Tm (Summary: Activity-based 5 5 Risk Assessment for vessel/manhole entry, LOTO isolation, continuous) Tj
+1 0 0 1 42 715 Tm () Tj
+1 0 0 1 42 700 Tm ([Page 1] Confined Space Entry Risk Assessment & Atmospheric Hold Points \(SWA-HSE-CSE-022\)) Tj
+1 0 0 1 42 685 Tm (Entry Activity  |  Atmospheric / Physical Hazard  |  Init Risk  |  Controls & Hold Point) Tj
+1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (* 01. Mechanical & Process Isolation   Inadvertent inflow of toxic gas, steam, or liquid) Tj
+1 0 0 1 42 640 Tm (  [25 \(Crit\)] -> Positive spade/blinding + LOTO padlock register [HOLD POINT] \(Res: 4 \(Low\)\)) Tj
+1 0 0 1 42 625 Tm (* 02. Pre-Entry 4-Gas Testing   Oxygen depletion / flammable vapor pocket) Tj
+1 0 0 1 42 610 Tm (  [20 \(High\)] -> Stratified top/mid/bottom probe test by Authorized Gas Tester \(Res: 4 \(Low\)\)) Tj
+1 0 0 1 42 595 Tm (* 03. Forced Air Ventilation & Entry   Heat stress / toxic fume accumulation during work) Tj
+1 0 0 1 42 580 Tm (  [15 \(High\)] -> Continuous blower air changes + personal 4-gas monitor on entrant \(Res: 3 \(Low\)) Tj
+1 0 0 1 42 565 Tm (* 04. Standby Attendant & Rescue   Unassisted entrant incapacitation inside chamber) Tj
+1 0 0 1 42 550 Tm (  [16 \(High\)] -> Dedicated hole-watch log + certified tripod winch & SCBA on standby \(Res: 3 \(Lo) Tj
+1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Missing site values flagged [HOLD PO) Tj
+1 0 0 1 42 520 Tm () Tj
+1 0 0 1 42 505 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2431
+%%EOF

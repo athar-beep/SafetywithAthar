@@ -1,0 +1,65 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 842] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3020 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 42 790 Tm (SafetyWithAthar   Remote HSE Documentation) Tj
+1 0 0 1 42 775 Tm (Document Title: Activity-Based Risk Assessment   Structural Work Pack) Tj
+1 0 0 1 42 760 Tm (Category: Risk Assessment   |   Status: Public-source demo sample \(Rev. 0   For review only\)) Tj
+1 0 0 1 42 745 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 730 Tm (Summary: 5 5 initial & residual risk matrix covering 39 pages of civil/structural activities, hi) Tj
+1 0 0 1 42 715 Tm () Tj
+1 0 0 1 42 700 Tm ([Page 1] Activity-Based Risk Assessment Matrix \(5 5 Initial   Residual\) \(SWA-HSE-RA-001\)) Tj
+1 0 0 1 42 685 Tm (Activity Step  |  Hazard & Consequence  |  Init Risk  |  Controls & Hold Points) Tj
+1 0 0 1 42 670 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (* 01. Sub-structure Excavation   Underground live cable strike / trench collapse) Tj
+1 0 0 1 42 640 Tm (  [20 \(High\)] -> PTW + CAT scan + trial pit hand-dig [HOLD POINT] \(Res: 4 \(Low\)\)) Tj
+1 0 0 1 42 625 Tm (* 02. Mobile Crane Rigging   Load drop / outrigger ground bearing failure) Tj
+1 0 0 1 42 610 Tm (  [16 \(High\)] -> 3rd-party lift plan, spreader mats, anemometer <20 kt \(Res: 4 \(Low\)\)) Tj
+1 0 0 1 42 595 Tm (* 03. Steel Column Erection   Fall from height / Pinch point during bolt-up) Tj
+1 0 0 1 42 580 Tm (  [15 \(High\)] -> MEWP rescue plan, 100% twin-lanyard tie-off, taglines \(Res: 3 \(Low\)\)) Tj
+1 0 0 1 42 565 Tm (* 04. Grouting & Chemical Curing   Dermal/respiratory exposure to epoxy grouts) Tj
+1 0 0 1 42 550 Tm (  [10 \(Med\)] -> COSHH assessment + SDS on site + nitrile/respirator PPE \(Res: 2 \(Low\)\)) Tj
+1 0 0 1 42 535 Tm (Note: Public-source demo sample   Rev. 0   For review only. Unconfirmed site values marked [HOLD) Tj
+1 0 0 1 42 520 Tm () Tj
+1 0 0 1 42 505 Tm ([Page 2] 5 5 Risk Evaluation Key & Client HSE Authority Sign-Off \(SWA-HSE-RA-001\)) Tj
+1 0 0 1 42 490 Tm (Control Hierarchy Tier  |  Verification Method  |  Owner Role  |  Gate Status) Tj
+1 0 0 1 42 475 Tm (----------------------------------------------------------------------------------------) Tj
+1 0 0 1 42 460 Tm (* 1 3. Elimination & Engineering   Temporary shoring design & certified lifting gear register) Tj
+1 0 0 1 42 445 Tm (  [Package Engineer] -> [HOLD POINT 01] \(Mandatory\)) Tj
+1 0 0 1 42 430 Tm (* 4. Administrative & PTW   Pre-shift TBT sign-off & exclusion zone barricading) Tj
+1 0 0 1 42 415 Tm (  [Site HSE Officer] -> Shift Inspection \(Active\)) Tj
+1 0 0 1 42 400 Tm (* 5. PPE & Emergency Rescue   Full body harness EN 361 + tripod retrieval standby) Tj
+1 0 0 1 42 385 Tm (  [Rescue Team Lead] -> Verified Pre-Start \(Checked\)) Tj
+1 0 0 1 42 370 Tm (Note: Drafted remotely by Muhammad Athar \(SafetyWithAthar\) for review and approval by site HSE a) Tj
+1 0 0 1 42 355 Tm () Tj
+1 0 0 1 42 340 Tm (Prepared by Muhammad Athar   SafetyWithAthar \(https://athar-beep.github.io/safetywithathar/\)) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3383
+%%EOF

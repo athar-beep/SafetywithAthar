@@ -91,9 +91,26 @@ export function InquirySection({
     setServerErrorDetail(null);
 
     try {
-      const response = await fetch('/api/inquiries', {
+      // GitHub Pages edition: the backend is the Supabase Edge Function
+      // `submit-inquiry` (saves to public.inquiries + email notification).
+      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+      const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as
+        | string
+        | undefined;
+      if (!supabaseUrl || !supabaseAnonKey) {
+        setStatus('failed');
+        setServerErrorDetail(
+          'Something went wrong — please email muhammadatharhse@gmail.com or tap WhatsApp.'
+        );
+        return;
+      }
+      const response = await fetch(`${supabaseUrl}/functions/v1/submit-inquiry`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          apikey: supabaseAnonKey,
+          Authorization: `Bearer ${supabaseAnonKey}`,
+        },
         body: JSON.stringify(validation.sanitized),
       });
 

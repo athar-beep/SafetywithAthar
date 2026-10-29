@@ -41,7 +41,7 @@ export interface PortfolioSampleRecord {
   document_pages?: SampleDocumentPage[];
 }
 
-export const GALLERY_PAGE_SIZE = 6;
+export const GALLERY_PAGE_SIZE = 9;
 
 export function paginateSamples<T>(
   items: T[],
